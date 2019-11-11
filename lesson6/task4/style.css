@@ -2,17 +2,16 @@
     background-color: green;
     color: white;
 }
+/*
 .to-be-learned ol {
     background-color: orange;
     color: green;
 }
 
 .already-learned code{
-    display: inline-block;
     background-color: orange;
 }
 .to-be-learned code{
-    display: inline-block;
     background-color: green;
 }
 #special1 + li h4 code {
@@ -21,3 +20,4 @@
 #special2 ~ li {
     font-size: 24px;
 }
+*/
