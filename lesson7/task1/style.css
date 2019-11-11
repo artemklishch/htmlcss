@@ -1,0 +1,23 @@
+a{
+    background-color: black;
+    color: white;
+}
+a:visited{
+    background-color: orange;
+    color: green;
+}
+a, button{
+    border: 3px solid red;
+}
+a:hover{
+    font-size: 24px;
+}
+button[disabled]{
+    border: 2px dashed grey;
+}
+input:focus{
+    background-color: orange;
+}
+input[type="checkbox" checked="checked"]{
+    margin-left:20px;
+}
