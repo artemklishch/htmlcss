@@ -13,6 +13,6 @@ li[data-description*="even"]{
 a[href="https://"]{
     color: green;
 }
-span[lang|= "en"]{
+span[lang|="en"], span[lang|="en-"]{
     font-size: 28px;
 }
