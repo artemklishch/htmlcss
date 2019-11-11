@@ -12,7 +12,7 @@ ul span{
 #special + li > span{
     border: 3px solid red;
 }
-#special + li>span ~ li {
+#special ~ li {
     margin-left: 16px;
 }
 
