@@ -7,10 +7,10 @@
     color: green;
 }
 
-.already-learned ol li ul li h4 code, .already-learned ol li ul li code{
+section.already-learned code{
     background-color: orange;
 }
-.to-be-learned code{
+section.to-be-learned code{
     background-color: green;
 }
 #special1 + li h4 code {
