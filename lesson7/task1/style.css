@@ -18,6 +18,6 @@ button[disabled]{
 input:focus{
     background-color: orange;
 }
-input[checked]{
+input.confirm-checkbox[checked]{
     margin-left:20px;
 }
