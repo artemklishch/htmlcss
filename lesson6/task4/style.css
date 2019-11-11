@@ -7,10 +7,12 @@
     color: green;
 }
 
-.already-learned > ol > li:first-child > ul > li:nth-child(3){
+.already-learned code{
+    display: inline-block;
     background-color: orange;
 }
-.to-be-learned > ol > li:first-child > ul > li:nth-child(3){
+.to-be-learned code{
+    display: inline-block;
     background-color: green;
 }
 #special1 + li h4 code {
