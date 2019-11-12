@@ -1,0 +1,16 @@
+div{
+    padding: 50px;
+}
+.blue_rect{
+    background-color: blue;
+    margin: 50px;
+}
+.yellow_rect{
+    background-color: yellow;
+}
+.green_rect{
+    background-color: green;
+}
+.pink_rect{
+    background-color: pink;
+}
