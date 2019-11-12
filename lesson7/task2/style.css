@@ -1,6 +1,7 @@
 li{
     margin-bottom: 16px;
 }
+/*
 ul li:first-child span{
     background-color: red;
     color: white;
@@ -8,10 +9,11 @@ ul li:first-child span{
 ul li:last-child span{
     background-color: black;
     color: white;
-}
+}*/
 ul li:nth-child(even){
     font-size: 16px;
 }
+/*
 .paragraphs p:nth-child(odd){
     background-color: grey;
-}
+}*/
