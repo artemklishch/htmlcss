@@ -13,7 +13,7 @@ ul li:last-child span{
 ul li:nth-child(even){
     font-size: 16px;
 }
-/*
+
 .paragraphs p:nth-child(odd){
     background-color: grey;
-}*/
+}
