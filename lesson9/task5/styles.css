@@ -5,17 +5,13 @@
     position: fixed;
     z-index: 3;
 }
-.header ul{
-    margin: 0;
-    height: 100%;
-}
 .header ul li{
     float: left;
     list-style: none;
     margin-left: 16px;
     color: white;
     position: relative;
-    top: 10px;
+    bottom: 5px;
 }
 main{
     height: 5000px;
