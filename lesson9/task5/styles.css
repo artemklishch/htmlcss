@@ -12,8 +12,9 @@
 .header ul li{
     float: left;
     list-style: none;
-    margin-left: 16px;
+    margin: 0 16px 0 16px;
     color: white;
+    
 }
 main{
     height: 5000px;
