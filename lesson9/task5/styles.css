@@ -7,7 +7,6 @@
 }
 .header ul{
     margin: 0;
-    padding: 0;
     line-height: 40px;
 }
 .header ul li{
@@ -17,7 +16,7 @@
     color: white;
 }
 main{
-    height: 500px;
+    height: 5000px;
     background-color: beige;  
     position: relative; 
 }
