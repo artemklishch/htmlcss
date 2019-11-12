@@ -4,7 +4,7 @@
     width: 100%;
     position: fixed;
     z-index: 3;
-}/*
+}
 .header ul li{
     float: left;
     list-style: none;
@@ -12,7 +12,7 @@
     color: white;
     position: relative;
     bottom: 5px;
-}
+}/*
 main{
     height: 5000px;
     background-color: beige;
