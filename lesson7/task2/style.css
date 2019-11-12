@@ -9,9 +9,10 @@ ul li:last-child span{
     background-color: black;
     color: white;
 }
+/*
 ul li:nth-child(even){
     font-size: 16px;
-}
+}*/
 
 .paragraphs p:nth-child(1), .paragraphs p:nth-child(4){
     background-color: grey;
