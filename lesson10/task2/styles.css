@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 .box{
     display: flex;
     flex-direction: column;
