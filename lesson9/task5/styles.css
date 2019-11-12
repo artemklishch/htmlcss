@@ -17,15 +17,16 @@
 }
 main{
     height: 5000px;
-    background-color: beige;    
+    background-color: beige;   
+    text-align: center; 
+    padding-top: 2500px;
 }
 .head{
     width: 200px;
     height: 200px;
     background-color: aquamarine;
-    position: absolute;
-    top: 45%;
-    left: 45%;
+    position: relative;
+    margin: 0 auto;
 }
 
 .ear{
