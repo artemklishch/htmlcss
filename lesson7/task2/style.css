@@ -11,7 +11,7 @@ ul li:last-child span{
 }
 
 ul li:nth-child(even){
-    margin-left: 16px;
+    padding-left: 16px;
 }
 
 .paragraphs p:nth-child(1), .paragraphs p:nth-child(4){
