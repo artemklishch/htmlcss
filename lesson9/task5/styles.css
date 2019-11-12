@@ -17,16 +17,14 @@
 }
 main{
     height: 5000px;
-    background-color: beige;
-    text-align: center;
-    
+    background-color: beige;    
 }
 .head{
     width: 200px;
     height: 200px;
     background-color: aquamarine;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 45%;
 }
 
