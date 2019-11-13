@@ -9,7 +9,6 @@ h1 {
     word-spacing: 20px;
     text-align: center;
     text-transform: uppercase;
-    font-weight: bold;
 }
 p{
     line-height: 28px;
@@ -19,6 +18,7 @@ p{
     font-size: 24px;
     opacity: 80%;
     text-decoration: underline;
+    font-weight: bold;
 }
 a{
     text-decoration: none;
