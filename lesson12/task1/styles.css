@@ -26,4 +26,5 @@ a{
 .translate{
     color: grey;
     font-style: italic;
+    font-weight: bold;
 }
