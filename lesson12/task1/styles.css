@@ -12,6 +12,9 @@ h1 {
 }
 p{
     line-height: 28px;
+    margin-left: 0;
+    margin-right: 0;
+    
 }
 .tecknology{
     letter-spacing: 3px;
@@ -19,8 +22,6 @@ p{
     opacity: 80%;
     text-decoration: underline;
     font-weight: bold;
-    margin: 0;
-    padding: 0;
 }
 a{
     text-decoration: none;
