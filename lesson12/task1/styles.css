@@ -1,8 +1,9 @@
-
-section, h1, p{
-    margin: 32px;
+*{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+}
+section, h1, p{
+    margin: 32px;
 }
 h1 {
     word-spacing: 20px;
