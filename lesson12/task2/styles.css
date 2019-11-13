@@ -20,10 +20,10 @@ header h1{
     margin: 0 auto;
 }
 div{
-    height: 202px;
+    height: 200px;
     background-color: coral;
     color: white;
     text-transform: uppercase;
     text-align: center;
-    line-height: 202px;
+    line-height: 200px;
 }
