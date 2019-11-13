@@ -3,13 +3,14 @@
 }
 .mountains{
     width: 300px;
-    height: 500px;
-    background-image: url(./nature.jpeg);
+    height: 500px;    
     background-position: center;
+    background-image: url(./nature.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
     font-size: 32px;
     font-weight: 700;
     text-align: center;
     color: #fff;
-    padding: 32px;
+    padding-top: 32px;
 }
