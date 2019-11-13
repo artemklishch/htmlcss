@@ -1,5 +1,6 @@
-*{
-    box-sizing: border-box;
+
+section, h1, p{
+    margin: 32px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
