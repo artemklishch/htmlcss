@@ -14,8 +14,7 @@ header h1{
 div{
     height: 200px;
     background-color: coral;
-    color: white;
-    text-transform: uppercase;
+    
     text-align: center;
     line-height: 200px;
 }
