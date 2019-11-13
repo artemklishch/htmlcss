@@ -20,5 +20,5 @@
 }
 .main_text:hover .tooltip{
     display: block;
-    width: 100%;
+    width: 90%;
 }
