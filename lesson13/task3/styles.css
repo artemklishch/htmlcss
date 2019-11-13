@@ -1,0 +1,10 @@
+.header-text{
+    margin: 0;
+    padding: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    background: linear-gradient(45deg, yellow, red);
+}
