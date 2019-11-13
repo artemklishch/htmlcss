@@ -3,6 +3,7 @@
 }
 .dropdown{
     margin: 16px;
+    margin-left: 0;
 }
 .menu-button{
     display: inline-block;
