@@ -12,7 +12,6 @@ h1 {
 }
 p{
     line-height: 28px;   
-    margin-left: 0; 
 }
 .tecknology{
     letter-spacing: 3px;
@@ -27,4 +26,5 @@ a{
 .translate{
     color: grey;
     font-style: italic;
+    font-weight: bold;
 }
