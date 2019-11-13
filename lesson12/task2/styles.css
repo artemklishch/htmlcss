@@ -2,7 +2,9 @@ html{
     font-family: Verdana;
     box-sizing: border-box;
 }
-
+header{
+    margin: 16px 0;
+}
 header h1{
     font-size: 74px;
     text-align: center;
