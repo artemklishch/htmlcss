@@ -13,10 +13,10 @@ header h1{
     margin: 16px auto;
 }
 div{
-    height: 200px;
+    height: 202px;
     background-color: coral;
     color: white;
     text-transform: uppercase;
     text-align: center;
-    line-height: 200px;
+    line-height: 202px;
 }
