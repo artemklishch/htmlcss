@@ -3,11 +3,11 @@
     font-size: 1.5em;
 }
 .list li:last-child{
-    text-decoration: red underline;
+    text-decoration: yellow underline;
 }
 .list li:nth-child(2){
     text-decoration: line-through;
 }
 .list li:first-child{
-    text-decoration: yellow overline;
+    text-decoration: red overline;
 }
