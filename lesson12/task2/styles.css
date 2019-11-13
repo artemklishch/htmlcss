@@ -10,7 +10,7 @@ header h1{
     width: 50%;
     white-space: nowrap;
     text-overflow: ellipsis;
-    margin: 16px auto;
+    margin: auto;
 }
 div{
     height: 202px;
