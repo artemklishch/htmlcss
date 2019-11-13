@@ -1,0 +1,13 @@
+.list{
+    list-style-type: none;
+    font-size: 1.5em;
+}
+.list li:last-child{
+    text-decoration: red underline;
+}
+.list li:nth-child(2){
+    text-decoration: line-through;
+}
+.list li:first-child{
+    text-decoration: yellow overline;
+}
