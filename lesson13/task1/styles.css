@@ -9,7 +9,7 @@
     text-align: center;
     color: #fff;
     padding-top: 32px;   
-    background-position: center;
-    background-image: url(nature.png);
-    background-size: cover;
+    -webkit-background-position: center;
+    -webkit-background-image: url(nature.png);
+    -webkit-background-size: cover;
 }
