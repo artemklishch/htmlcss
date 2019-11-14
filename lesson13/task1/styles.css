@@ -10,6 +10,6 @@
     color: #fff;
     padding-top: 32px;   
     background-position: center;
-    background-image: url(nature.jpeg);
+    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg");
     background-size: cover;
 }
