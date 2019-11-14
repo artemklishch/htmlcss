@@ -10,6 +10,6 @@
     color: #fff;
     padding-top: 32px;   
     background-position: center;
-    background-image: url("nature.png");
+    background: url("nature.png");
     background-size: cover;
 }
