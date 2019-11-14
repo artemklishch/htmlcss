@@ -1,9 +1,7 @@
 .form-control, .choose-gender{
     margin: 16px;
 }
-.choose-gender .male-checked{
+.choose-gender label{
     margin-left: -5px;
 }
-.female-checked{
-    margin-left: -5px;
-}
+
