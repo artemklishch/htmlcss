@@ -14,8 +14,12 @@
     margin: auto;
     opacity: 0.5;
     cursor: pointer;
-    margin-top: -200px;
-    z-index: 2;
+    position: relative;
+    bottom: 200px;
+    
+
+
+
 }
 .image-button:hover{
     opacity: 1;
@@ -24,5 +28,5 @@
     display: block;
     max-width: 100%;
     margin: auto;
-    z-index: -10px;
+    position: relative;
 }
