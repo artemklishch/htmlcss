@@ -1,5 +1,6 @@
 .video{
     width: 500px;
     display: block;
-    margin: 200px auto 0;
+    margin: 0 auto;
+    margin-top: 200px;
 }
