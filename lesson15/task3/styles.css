@@ -3,4 +3,5 @@ iframe{
     margin: 100px auto;
     width: 500px;
     height: 400px;
+    visibility: hidden;
 }
