@@ -1,0 +1,30 @@
+.image-container{
+    margin-top: 50px;
+}
+.big_image{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.gallery{
+    margin-top: 50px;
+    display: flex;
+}
+.card{
+    margin: 16px;
+    box-shadow: 0px 7px 18px -8px rgba(0,0,0,0.75);
+}
+.caption{
+    text-align: center;
+    line-height: 30px;
+}
+.opacity_image{
+    filter: opacity(50%);
+}
+.blur_image{
+    filter: blur(4px);
+}
+.invert_image{
+    filter: invert(100%);
+}
