@@ -12,9 +12,17 @@
     text-align: center;
     line-height: 50px;  
     margin: auto;
+    opacity: 0.5;
+    cursor: pointer;
+    margin-top: -200px;
+    z-index: 2;
+}
+.image-button:hover{
+    opacity: 1;
 }
 .image{
     display: block;
     max-width: 100%;
     margin: auto;
+    z-index: -10px;
 }
