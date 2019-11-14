@@ -2,7 +2,7 @@
     padding-left: 35px;
     font-size: 24px;
     position: relative;
-    margin-left: -40px;
+    margin:16;
 }
 input[type="checkbox"]{
     visibility: hidden;
