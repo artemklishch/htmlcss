@@ -2,13 +2,11 @@
     max-width: 100%;
     height: auto;
 }
-​
 .image-container {
     position: relative;
     display: flex;
     justify-content: center;
 }
-​
 .image-button {
     width: 200px;
     height: 50px;
@@ -25,7 +23,6 @@
     opacity: 0.5;
     cursor: pointer;
 }
-​
 .image-button:hover {
     opacity: 1;
 }
