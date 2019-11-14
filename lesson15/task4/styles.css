@@ -11,8 +11,7 @@
     font-weight: 700;
     text-align: center;
     line-height: 50px;  
-    position: absolute;
-    bottom: 20vh;
+    margin: auto;
 }
 .image{
     display: block;
