@@ -4,4 +4,6 @@
 .choose-gender label{
     margin-left: -5px;
 }
-
+.color-input{
+    border: 1px solid rgba(191,136,27,1);
+}
