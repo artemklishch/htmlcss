@@ -1,3 +1,6 @@
 .form-control, .choose-gender{
     margin: 16px;
 }
+.choose-gender label:first-child{
+    padding-left: 3px;
+}
