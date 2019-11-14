@@ -42,6 +42,7 @@
 .image-container{
     width: 500px;
     height: 333px;
+    margin: auto;
     background-position: center;
     background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/hw1/big.jpeg");
     background-size: cover;
