@@ -12,7 +12,6 @@ table, td{
 }
 table{
     margin: 16px;
-    border: none;
 }
 .first-row td:nth-child(odd){
     background-color: black;
