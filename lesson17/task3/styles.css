@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+td{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    margin: 16px;
+    border: none;
+}
+.first-row td:nth-child(odd){
+    background-color: black;
+}
+.second-row td:nth-child(even){
+    background-color: black;
+}
+.third-row td:nth-child(odd){
+    background-color: black;
+}
+.fourth-row td:nth-child(even){
+    background-color: black;
+}
+.fifth-row td:nth-child(odd){
+    background-color: black;
+}
+.sixth-row td:nth-child(even){
+    background-color: black;
+}
+.seventh-row td:nth-child(odd){
+    background-color: black;
+}
+.eighth-row td:nth-child(even){
+    background-color: black;
+}
+.top-letters td, .bottom-letters td{
+    border: none;
+    background-color: white;
+}
+.first-row td:first-child, .first-row td:last-child, 
+.second-row td:first-child, .second-row td:last-child,
+.third-row td:first-child, .third-row td:last-child, 
+.fourth-row td:first-child, .fourth-row td:last-child,
+.fifth-row td:first-child, .fifth-row td:last-child,
+.sixth-row td:first-child, .sixth-row td:last-child,
+.seventh-row td:first-child, .seventh-row td:last-child,
+.eighth-row td:first-child, .eighth-row td:last-child{
+    background-color: white;
+    border: none;
+}
