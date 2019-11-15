@@ -28,11 +28,13 @@ tbody tr:hover{
     color: white;
 }
 caption{
-    font-weight: 700;
     margin-bottom: 8px;
 }
 thead{
     background-color: aqua;
+}
+tfoot{
+    font-weight: 700;
 }
 
 
