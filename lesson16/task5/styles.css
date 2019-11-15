@@ -4,5 +4,7 @@
 .control{
     margin: 8px;
 }
-
+.languages input{
+    margin-right: 3px;
+}
 
