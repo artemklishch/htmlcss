@@ -29,6 +29,7 @@ body{
     outline: none;
 }
 .form-label{
+    display: inline-block;
     margin-bottom: 8px;
 }
 input:required{
