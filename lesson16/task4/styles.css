@@ -47,4 +47,5 @@ input:required{
     color: white;
     text-transform: uppercase;
     border-radius: 4px;
+    margin-top: 16px;
 }
