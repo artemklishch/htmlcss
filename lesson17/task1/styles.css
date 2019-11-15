@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-table, td, th{
+table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
 }
@@ -10,7 +10,7 @@ table{
     margin: 16px;
 }
 
-td, th{
+th, td{
     padding: 4px;
     text-align: right;
 }
