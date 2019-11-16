@@ -12,7 +12,7 @@
 }
 .rect{
     width: 10px;
-    height: 2px;
+    height: 4px;
     background-color: black;
     border-radius: 2px;
     position: relative;
