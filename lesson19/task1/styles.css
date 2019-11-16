@@ -16,9 +16,7 @@
 .linear{
     transition-timing-function: linear;
 }
-.ease{
-    transition-timing-function: ease;
-}
+
 .ease-in{
     transition-timing-function: ease-in;
 }
