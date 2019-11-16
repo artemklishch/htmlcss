@@ -3,6 +3,7 @@
 }
 .container{
     margin: 32px;
+    width: 100%;
 }
 .rect{
     margin-bottom: 16px;
