@@ -14,19 +14,19 @@
     line-height: 100px;
 }
 .linear{
-    animation-timing-function: linear;
+    transition-timing-function: linear;
 }
 .ease{
-    animation-timing-function: ease;
+    transition-timing-function: ease;
 }
 .ease-in{
-    animation-timing-function: ease-in;
+    transition-timing-function: ease-in;
 }
 .ease-out{
-    animation-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
 .ease-in-out{
-    animation-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
 }
 .rect:hover{
     transition: width 2s, opacity 0.5s;
