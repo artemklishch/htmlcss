@@ -13,7 +13,7 @@
 .fa-battery-empty{
     font-size: 256px;
 }
-.icons{
+body{
     display: flex;
     justify-content: space-between;
 }
