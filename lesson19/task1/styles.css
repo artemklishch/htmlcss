@@ -14,22 +14,22 @@
     line-height: 100px;
 }
 .linear{
-    transition-timing-function: linear;
+    timing-function: linear;
 }
 .ease{
-    transition-timing-function: ease;
+    timing-function: ease;
 }
 .ease-in{
-    transition-timing-function: ease-in;
+    timing-function: ease-in;
 }
 .ease-out{
-    transition-timing-function: ease-out;
+    timing-function: ease-out;
 }
 .ease-in-out{
-    transition-timing-function: ease-in-out;
+    timing-function: ease-in-out;
 }
 .rect:hover{
-    transition: width, opacity 0.5s;
+    transition: width 2s, opacity 0.5s;
     width: 100%;
     opacity: 1;
 }
