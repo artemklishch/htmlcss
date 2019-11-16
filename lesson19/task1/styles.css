@@ -12,8 +12,6 @@
     width: 100px;
     height: 100px;
     line-height: 100px;
-    transition-property: width, opacity;
-    transition-duration: 2s, 0.5s;
 }
 .linear{
     transition-timing-function: linear;
@@ -29,6 +27,7 @@
     transition-timing-function: ease-in-out;
 }
 .rect:hover{
+    transition: width 2s, opacity 0.5s;
     width: 100%;
     opacity: 1;
 }
