@@ -48,6 +48,7 @@ header{
 }
 .news{
     width: 20%;
+    box-sizing: content-box;
 }
 .news p{
     margin: 0;
