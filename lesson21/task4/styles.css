@@ -6,10 +6,6 @@ html{
     color: #555;
     font-size: 16px;
 }
-body{
-    display: flex;
-    flex-direction: column;
-}
 header{
     overflow: hidden;
     text-align: center;
@@ -74,8 +70,7 @@ header{
 .footer{
     background-color: #e5e5e5;
     padding: 0.5em;
-    align-self: flex-end;
-    width: 100%;
+    margin-top: auto;
     display: flex;
     justify-content: center;
     align-items: center;
