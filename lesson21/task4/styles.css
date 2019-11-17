@@ -48,6 +48,9 @@ header{
     display: flex;
     flex-direction: column;
 }
+.news p{
+    margin: 0;
+}
 .nav-list-item{
     background-color: #808080;
     color: #fff;
@@ -71,4 +74,5 @@ header{
     background-color: #e5e5e5;
     padding: 0.5em;
     text-align: center;
+    line-height: 1em;
 }
