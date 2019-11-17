@@ -22,7 +22,7 @@ header{
 }
 .main{
     display: flex;
-    height: 100vh; 
+    height: calc(100vh - 40px);
 }
 .section__header{
     font-size: 5vw;
@@ -84,5 +84,4 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
 }
