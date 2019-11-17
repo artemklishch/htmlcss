@@ -84,5 +84,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: flex-end;
     overflow: hidden;
 }
