@@ -13,6 +13,7 @@ html{
 body{
    display: flex;
    flex-direction: column;
+   height: 100vh; 
 }
 header{
     overflow: hidden;
@@ -22,7 +23,6 @@ header{
 }
 .main{
     display: flex;
-    height: 100vh; 
 }
 .section__header{
     font-size: 5vw;
@@ -84,4 +84,5 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
 }
