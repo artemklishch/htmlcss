@@ -41,7 +41,7 @@
 }
 @keyframes spin{
     from{
-        transform: rotate(45deg);
+        transform: rotate(3deg);
     }
     to{
         transform: rotate(360deg);
