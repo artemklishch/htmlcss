@@ -11,8 +11,7 @@ html{
     font-size: 16px;
 }
 body{
-    display: flex;
-    flex-direction: column;
+    position: relative;
     height: 100vh;
 }
 header{
@@ -84,5 +83,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    align-self: flex-end;
+    position: absolute;
+    bottom: 0;
 }
