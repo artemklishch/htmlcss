@@ -11,8 +11,9 @@ html{
     font-size: 16px;
 }
 body{
-    position: relative;
-    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   height: 100vh; 
 }
 header{
     overflow: hidden;
@@ -22,6 +23,7 @@ header{
 }
 .main{
     display: flex;
+    
 }
 .section__header{
     font-size: 5vw;
@@ -83,6 +85,4 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: 0;
 }
