@@ -81,7 +81,6 @@ img{
 .footer{
     background-color: #e5e5e5;
     padding: 0.5em;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,10 +91,12 @@ img{
 
 @media(min-width:600px){
     .navigation{
-        flex-shrink: 4;
+        width: 30%;
+        
     }
     .section{
-        flex-shrink: 1;
+        width: 80%;
+        
     }
     .main__nav-and-section{
         display: flex;
