@@ -10,7 +10,7 @@ html{
     align-items: center;
 }
 .header__btn .fa-bars{
-    font-size: 2.5em;
+    font-size: 2em;
     padding-left: 2px;
 }
 .header__btn{
@@ -35,7 +35,7 @@ html{
     .nav-list{
         padding: 0;
         list-style-type: none;
-        margin-top:22px;
+        margin-top:24px;
     }
     .nav-list-item{
         width: 100%;
