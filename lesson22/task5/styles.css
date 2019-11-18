@@ -95,7 +95,7 @@ img{
         flex-shrink: 4;
     }
     .section{
-        flex-shrink: 1t;
+        flex-shrink: 1;
     }
     .main__nav-and-section{
         display: flex;
