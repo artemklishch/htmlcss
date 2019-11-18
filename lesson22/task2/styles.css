@@ -41,7 +41,7 @@ div span{
         flex-grow: 2;
     }
 }
-@media(min-width:601px){
+@media(min-width:600px){
     .content{
         display: flex;
     }
