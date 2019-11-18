@@ -12,7 +12,6 @@ body{
     height: 100vh; 
 }
 .header{
-    font-size: 0.7em;
     color: #fff;
     background-image: linear-gradient(60deg, red, orange);
     width: 100%;
