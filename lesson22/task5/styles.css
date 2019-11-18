@@ -91,11 +91,11 @@ img{
 
 @media(min-width:600px){
     .navigation{
-        width: 30%;
+        flex-shrink: 3;
         
     }
     .section{
-        width: 70%;
+        flex-shrink: 1;
         
     }
     .main__nav-and-section{
