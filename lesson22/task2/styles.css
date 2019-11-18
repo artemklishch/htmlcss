@@ -86,7 +86,7 @@ div span{
     flex-grow:1;
 }
 
-@media(max-width:899px){
+@media(max-width:898px){
     .content{
         display: block;
     }
