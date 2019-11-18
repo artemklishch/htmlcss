@@ -92,10 +92,10 @@ img{
 
 @media(min-width:600px){
     .navigation{
-        width: 20%;
+        flex-shrink: 4;
     }
     .section{
-        width: 80%;
+        flex-shrink: 1t;
     }
     .main__nav-and-section{
         display: flex;
