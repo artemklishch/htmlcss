@@ -15,7 +15,7 @@ html{
 }
 .header__btn{
     padding: 0;
-    background-color: #eee;
+    background-color: transparent;
     border: none;
     outline: none;
     cursor: pointer;
