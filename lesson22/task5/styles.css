@@ -20,6 +20,10 @@ body{
 .section{
     font-size: 1.25em;
 }
+.picture{
+    display: inline-block;
+    overflow: hidden;
+}
 img{
     max-width: 100%;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
