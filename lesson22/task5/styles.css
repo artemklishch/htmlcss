@@ -97,7 +97,10 @@ img{
        width: 100%;
     }
     .navigation{
-        width: auto;
+        flex-grow: 1;
+    }
+    .section{
+        flex-grow: 1;
     }
     .news{
         width: 20%;
