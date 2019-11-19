@@ -103,7 +103,7 @@ img{
         display: flex;
     }
     .main__nav-and-section{
-        flex-grow: 1;
+        flex-grow: 4;
     }
     .news{
         display: flex;
