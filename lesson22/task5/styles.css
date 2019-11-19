@@ -86,8 +86,8 @@ img{
     .main__nav-and-section{
         display: flex;
     }
-    .section{
-        width: 80%;
+    .navigation{
+        width: 20%;
     }
 }
 @media(min-width:900px){
