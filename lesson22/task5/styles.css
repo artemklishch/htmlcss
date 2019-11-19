@@ -102,13 +102,5 @@ img{
     .main{
         display: flex;
     }
-    .main__nav-and-section{
-        flex-grow: 4;
-    }
-    .news{
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-    }
 }
 
