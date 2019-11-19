@@ -94,8 +94,8 @@ img{
     .main{
         display: flex;
     }
-    .main__nav-and-section{
-        
+    .section{
+        width: 60%;
     }
     .news{
         width: 20%;
