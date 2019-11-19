@@ -93,6 +93,13 @@ img{
     .main__nav-and-section{
         display: flex;
     }
+    .navigation{
+        flex-grow: 1;
+    }
+    .section{
+        flex-grow: 4;
+    }
+    
 }
 @media(min-width:900px){
     .main{
@@ -100,13 +107,11 @@ img{
     }
     .main__nav-and-section{
         width: 80%;
+        flex-grow: 4;
     }
     .news{
         width: 20%;
-    }
-    .section{
-        width: 60%;
-        flex-grow: 3;
+        flex-grow: 1;
     }
 }
 
