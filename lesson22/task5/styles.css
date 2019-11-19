@@ -86,16 +86,13 @@ img{
     .main__nav-and-section{
         display: flex;
     }
+    .section{
+        width: 80%;
+    }
 }
 @media(min-width:900px){
     .main{
         display: flex;
-    }
-    .main__nav-and-section{
-        width: 80%;      
-    }
-    .news{
-        width: 20%;   
     }
 }
 
