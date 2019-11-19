@@ -28,8 +28,6 @@ img{
     padding: 0.5em;
 }
 .navigation{
-    display: flex;
-    flex-direction: column;
     flex-grow:1;
 }
 .nav-list{
@@ -58,9 +56,7 @@ img{
 }
 .section{
     font-size: 1.25em;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 3;
+    flex-grow: 1;
 }
 .section__header{
     font-size: 5vw;
@@ -77,8 +73,6 @@ img{
     font-weight: 700;
 }
 .news{
-    display: flex;
-    flex-direction: column;
     flex-grow:1;
 }
 .news p{
@@ -98,13 +92,6 @@ img{
 @media(min-width:600px){
     .main__nav-and-section{
         display: flex;
-        flex-grow: 3;
-    }
-    .section{
-        width: 80%;
-    }
-    .navigation{
-        width: 20%;
     }
 }
 @media(min-width:900px){
@@ -119,6 +106,7 @@ img{
     }
     .section{
         width: 60%;
+        flex-grow: 3;
     }
 }
 
