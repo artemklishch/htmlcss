@@ -17,15 +17,8 @@ body{
     display: flex;
     justify-content: center;
 }
-.navigation{
-    
-}
 .section{
     font-size: 1.25em;
-    
-}
-.news{
-    
 }
 .picture{
     margin: auto;
@@ -37,7 +30,6 @@ img{
 .navigation, .section, .news{
     padding: 0.5em;
 }
-
 .nav-list{
     list-style-type: none;
     padding: 0;
@@ -62,7 +54,6 @@ img{
     text-overflow: ellipsis;
     -moz-text-overflow: ellipsis;
 }
-
 .section__header{
     font-size: 5vw;
     text-align: center;
@@ -95,13 +86,6 @@ img{
     .main__nav-and-section{
         display: flex;
     }
-    .navigation{
-        flex-grow: 1;
-    }
-    .section{
-        flex-grow: 5;
-    }
-    
 }
 @media(min-width:900px){
     .main{
@@ -109,11 +93,11 @@ img{
     }
     .main__nav-and-section{
         width: 80%;
-        flex-grow: 5;
+        
     }
     .news{
         width: 20%;
-        flex-grow: 1;
+        
     }
 }
 
