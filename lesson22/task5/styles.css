@@ -19,6 +19,10 @@ body{
 }
 .section{
     font-size: 1.25em;
+    flex-grow: 3;
+}
+.navigation{
+    flex-grow: 1;
 }
 img{
     max-width: 100%;
@@ -65,6 +69,9 @@ img{
     font-size: 1.125em;
     font-weight: 700;
 }
+.news{
+    flex-grow: 1;
+}
 .news p{
     margin: 0;
 }
@@ -80,6 +87,7 @@ img{
 @media(min-width:600px){
     .main__nav-and-section{
         display: flex;
+        flex-grow: 3;
     }
     .navigation{
         width: 20%;
@@ -94,13 +102,10 @@ img{
         display: flex;
     }
     .main__nav-and-section{
-       width: 100%;
-    }
-    .navigation{
-        flex-grow: 1;
+       width: 80%;
     }
     .section{
-        flex-grow: 1;
+        width: 60%;
     }
     .news{
         width: 20%;
