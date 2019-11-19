@@ -87,20 +87,22 @@ img{
         display: flex;
     }
     .navigation{
-        display: flex;
-        flex-direction:column;
-        flex-grow: 1;
+        width: 20%;
     }
     .section{
-        display: flex;
-        flex-direction: column;
-        flex-grow: 4;
+        width: 80%;
     }
     
 }
 @media(min-width:900px){
     .main{
         display: flex;
+    }
+    .main__nav-and-section{
+       width: 100%;
+    }
+    .news{
+        width: 20%;
     }
 }
 
