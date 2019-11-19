@@ -97,7 +97,7 @@ img{
         flex-grow: 1;
     }
     .section{
-        flex-grow: 4;
+        flex-grow: 5;
     }
     
 }
@@ -107,7 +107,7 @@ img{
     }
     .main__nav-and-section{
         width: 80%;
-        flex-grow: 4;
+        flex-grow: 5;
     }
     .news{
         width: 20%;
