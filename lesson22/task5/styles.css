@@ -92,12 +92,10 @@ img{
         display: flex;
     }
     .main__nav-and-section{
-        width: 80%;
-        
+        width: 80%;      
     }
     .news{
-        width: 20%;
-        
+        width: 20%;   
     }
 }
 
