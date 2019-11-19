@@ -95,10 +95,10 @@ img{
         display: flex;
     }
     .main__nav-and-section{
-        flex-grow: 3;
+        
     }
     .news{
-        flex-grow: 1;
+        width: 20%;
     }
 }
 
