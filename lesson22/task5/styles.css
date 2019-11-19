@@ -20,10 +20,6 @@ body{
 .section{
     font-size: 1.25em;
 }
-.picture{
-    display: inline-block;
-    overflow: hidden;
-}
 img{
     max-width: 100%;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
@@ -75,9 +71,7 @@ img{
 .footer{
     background-color: #e5e5e5;
     padding: 0.4em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     margin-top: auto;
 } 
 
@@ -102,6 +96,9 @@ img{
     .main__nav-and-section{
        width: 100%;
     }
+    /* .navigation{
+        width: auto;
+    } */
     .news{
         width: 20%;
     }
