@@ -14,11 +14,13 @@
 }
 .nav-list__item {
   background-color: #ff7f50;
-  text-transform: uppercase;
   padding: 8px;
   margin-left: 8px;
   border-radius: 4px;
   cursor: pointer;
+}
+.nav-list__item::first-letter {
+  text-transform: uppercase;
 }
 .nav-list__item_selected {
   background-color: #fb0;
