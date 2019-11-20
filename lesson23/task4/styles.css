@@ -1,7 +1,8 @@
 .wrapper {
   overflow: hidden;
 }
-.wrapper div span {
+
+div span {
   display: inline-block;
   text-transform: lowercase;
   font-family: Verdana;
@@ -10,7 +11,8 @@
   border-radius: 4px;
   margin: 0 auto;
 }
-.wrapper .navigation {
+
+.navigation {
   height: 200px;
   background-color: #ff7f50;
   display: flex;
@@ -18,7 +20,8 @@
   align-items: center;
   flex-grow: 1;
 }
-.wrapper .products__list {
+
+.products__list {
   height: 200px;
   background-color: #006400;
   display: flex;
