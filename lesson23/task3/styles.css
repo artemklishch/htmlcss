@@ -28,6 +28,9 @@
   display: block;
   color: #fff;
 }
+.menu__item_active {
+  color: yellow;
+}
 
 .submenu {
   overflow: hidden;
