@@ -42,7 +42,7 @@ div span {
 @media (min-width: 600px) {
   .wrapper {
     display: flex;
-    flex-grow: 1.7;
+    flex-grow: 1.6;
   }
 }
 @media (min-width: 900px) {
