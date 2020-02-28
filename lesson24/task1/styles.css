@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr 2fr);
+}
+
+/*# sourceMappingURL=styles.css.map */
