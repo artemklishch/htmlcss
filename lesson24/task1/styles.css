@@ -2,6 +2,33 @@
   box-sizing: border-box;
 }
 
+.wrapper{
+  height: 100vh;
+}
 .wrapper__top-blocks{
+  width: 100%;
   display: flex;
+}
+.wrapper__top-blocks_left{
+  background-color: red;
+  width: 50%;
+}
+.wrapper__top-blocks_right{
+  width: 50%;
+}
+.wrapper__bottom-block{
+  background-color: green;
+}
+
+@media(max-width: 411px){
+  .wrapper__top-blocks{
+    display: block;
+  }
+  .wrapper__top-blocks_left{
+    height: 10em;
+    width: 100%; 
+  }
+  .wrapper__top-blocks_right{
+    width: 100%;
+  }
 }
