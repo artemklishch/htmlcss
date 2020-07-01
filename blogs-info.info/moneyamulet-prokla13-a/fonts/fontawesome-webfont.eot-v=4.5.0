@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html dir=ltr>
+<head>
+<base href="https://blogs-info.info/moneyamulet-prokla13-a/"/>
+<style>.ac_footer{position:relative;text-align:center;overflow:hidden;padding:50px 0;color:#a12000}.ac_footer a{color:#a12000}.ac_footer p{text-align:center}img[height="1"],img[width="1"]{display:none!important}</style><script type="text/javascript" data-pagespeed-no-defer>(function(){function d(b){var a=window;if(a.addEventListener)a.addEventListener("load",b,!1);else if(a.attachEvent)a.attachEvent("onload",b);else{var c=a.onload;a.onload=function(){b.call(this);c&&c.call(this)}}}var p=Date.now||function(){return+new Date};window.pagespeed=window.pagespeed||{};var q=window.pagespeed;function r(){this.a=!0}r.prototype.c=function(b){b=parseInt(b.substring(0,b.indexOf(" ")),10);return!isNaN(b)&&b<=p()};r.prototype.hasExpired=r.prototype.c;r.prototype.b=function(b){return b.substring(b.indexOf(" ",b.indexOf(" ")+1)+1)};r.prototype.getData=r.prototype.b;r.prototype.f=function(b){var a=document.getElementsByTagName("script"),a=a[a.length-1];a.parentNode.replaceChild(b,a)};r.prototype.replaceLastScript=r.prototype.f;
+r.prototype.g=function(b){var a=window.localStorage.getItem("pagespeed_lsc_url:"+b),c=document.createElement(a?"style":"link");a&&!this.c(a)?(c.type="text/css",c.appendChild(document.createTextNode(this.b(a)))):(c.rel="stylesheet",c.href=b,this.a=!0);this.f(c)};r.prototype.inlineCss=r.prototype.g;
+r.prototype.h=function(b,a){var c=window.localStorage.getItem("pagespeed_lsc_url:"+b+" pagespeed_lsc_hash:"+a),f=document.createElement("img");c&&!this.c(c)?f.src=this.b(c):(f.src=b,this.a=!0);for(var c=2,k=arguments.length;c<k;++c){var g=arguments[c].indexOf("=");f.setAttribute(arguments[c].substring(0,g),arguments[c].substring(g+1))}this.f(f)};r.prototype.inlineImg=r.prototype.h;
+function t(b,a,c,f){a=document.getElementsByTagName(a);for(var k=0,g=a.length;k<g;++k){var e=a[k],m=e.getAttribute("data-pagespeed-lsc-hash"),h=e.getAttribute("data-pagespeed-lsc-url");if(m&&h){h="pagespeed_lsc_url:"+h;c&&(h+=" pagespeed_lsc_hash:"+m);var l=e.getAttribute("data-pagespeed-lsc-expiry"),l=l?(new Date(l)).getTime():"",e=f(e);if(!e){var n=window.localStorage.getItem(h);n&&(e=b.b(n))}e&&(window.localStorage.setItem(h,l+" "+m+" "+e),b.a=!0)}}}
+function u(b){t(b,"img",!0,function(a){return a.src});t(b,"style",!1,function(a){return a.firstChild?a.firstChild.nodeValue:null})}
+q.i=function(){if(window.localStorage){var b=new r;q.localStorageCache=b;d(function(){u(b)});d(function(){if(b.a){for(var a=[],c=[],f=0,k=p(),g=0,e=window.localStorage.length;g<e;++g){var m=window.localStorage.key(g);if(!m.indexOf("pagespeed_lsc_url:")){var h=window.localStorage.getItem(m),l=h.indexOf(" "),n=parseInt(h.substring(0,l),10);if(!isNaN(n))if(n<=k){a.push(m);continue}else if(n<f||!f)f=n;c.push(h.substring(l+1,h.indexOf(" ",l+1)))}}k="";f&&(k="; expires="+(new Date(f)).toUTCString());document.cookie=
+"_GPSLSC="+c.join("!")+k;g=0;for(e=a.length;g<e;++g)window.localStorage.removeItem(a[g]);b.a=!1}})}};q.localStorageCacheInit=q.i;})();
+pagespeed.localStorageCacheInit();</script><style data-pagespeed-lsc-url="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic-ext" data-pagespeed-lsc-hash=Y-uKNE5z2W data-pagespeed-lsc-expiry="Thu, 02 Jul 2020 09:04:35 GMT">@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCRc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc9.ttf) format('truetype');
+}
+</style><style data-pagespeed-lsc-url="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=cyrillic-ext" data-pagespeed-lsc-hash=ppeebOf_ey data-pagespeed-lsc-expiry="Thu, 02 Jul 2020 09:04:35 GMT">@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVl2ZhZI2eCN5jzbjEETS9weq8-19-7CA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCkYag.ttf) format('truetype');
+}
+</style><style data-pagespeed-lsc-url="https://fonts.googleapis.com/css?family=Roboto+Slab&amp;subset=cyrillic-ext" data-pagespeed-lsc-hash=AU6ysdCPez data-pagespeed-lsc-expiry="Thu, 02 Jul 2020 09:04:35 GMT">@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmYmRm.ttf) format('truetype');
+}
+</style><link href="css/bootstrap.min.css" rel=stylesheet /><link href="css/style.min.css" rel=stylesheet /><link href="css/jquery.sidr.dark.css" rel=stylesheet /><link href="css/A.font-awesome.min.css.pagespeed.cf.g1qbqE_BkQ.css" rel=stylesheet /><link href="css/jquery.bxslider.css" rel=stylesheet /><style>.order-form{max-width:400px;margin:15px auto;padding:24px;border:1px solid #242124;text-align:center;box-sizing:border-box}.order-form__price{display:inline-block;margin:0 8px 16px}.order-form__price:first-of-type{text-decoration:line-through}.order-form__price:last-of-type{font-weight:bold}.order-form__label{display:block;margin:0 auto 8px}.order-form__text{display:block;margin:0 auto 16px;border-radius: calc(8px / 2);border:1px solid #242124;padding:8px 16px}.order-form__button{margin: calc(8px / 2) auto 16px;border-radius: calc(8px / 2);background-color:green;color:#fff;border:0;padding:8px 16px}.order-form__caption{margin-bottom:0}.order-form__star{}</style><script src="js/jquery-1.12.4.min.js"></script>
+<meta charset=utf-8 />
+<meta content="width=device-width, initial-scale=1" name=viewport />
+<title> ນັກໂຫລາສາດພຣະອາຈານ ພູເຂົາຄາດຄະເນ </title>
+<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/favicon.ico"/>
+<script>function dtime_nums(d){var now=new Date();now.setDate(now.getDate()+d);document.write((now.getDate())+"."+((now.getMonth()+1)<10?'0':'')+(now.getMonth()+1)+"."+now.getFullYear());}</script>
+</head>
+<body>
+<div id=page-outer-wrap>
+<div id=page-inner-wrap>
+<header id=page-header>
+<div id=header-branding>
+<div class=container>
+<div class=row>
+<div class="col-sm-6 col-md-4 logo-wrap" style="padding-top: 5px;">
+<a class=logo href="">
+<div class=logo-left>
+<script data-pagespeed-no-defer>(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/ngx_pagespeed_beacon','https://blogs-info.info/moneyamulet-prokla13-a/fonts/fontawesome-webfont.eot-v=4.5.0','t0wwjCGYgP',true,false,'MZX_XuGRu3A');</script><img alt="Твой астрологический помощник" src="img/logo.png" data-pagespeed-url-hash=4071208813 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/logo.png"/>
+</div>
+<div class=logo-right>
+<div class=logo__text> ພູເຂົາຄາດຄະເນ </div>
+<div class=logo__text2> ເວັບໄຊທ໌ທາງການ </div>
+</div>
+</a>
+</div>
+<div class="col-sm-6 col-md-8 text-center hidden-sm hidden-xs">
+<div class=menu>
+<div class=sser-pad>
+<a href="" title="Твой персональный гороскоп на целый год">
+<div class=s-ser><img alt="" src="img/s-sprite-1.png" data-pagespeed-url-hash=3991904413 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/s-sprite-1.png"/></div>
+</a>
+<div class=s-text><span class=slink><a href=""> ດວງຊະຕາລາສີ <br/> ສຳລັບ<span class=ryear></span>!</a></span>
+</div>
+</div>
+<div class=sser-pad>
+<a href="" title="Подробный гороскоп совместимости">
+<div class=s-ser><img alt="" src="img/s-sprite-2.png" data-pagespeed-url-hash=4286404334 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/s-sprite-2.png"/></div>
+</a>
+<div class=s-text><span class=slink><a href=""> ຄວາມເຂົ້າກັນໄດ້ <br/> ດວງຊະຕາລາສີ</a></span>
+</div>
+</div>
+<div class=sser-pad>
+<a href="" title="Задай вопросы астрологу и получи ответы">
+<div class=s-ser><img alt="" src="img/s-sprite-3.png" data-pagespeed-url-hash=285936959 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/s-sprite-3.png"/></div>
+</a>
+<div class=s-text><span class=slink><a href=""> ນັກໂຫລາສາດ <br/> ຄຳແນະນຳ</a></span>
+</div>
+</div>
+<div class=sser-pad>
+<a href="" title="Узнай какой камень принесет тебе удачу">
+<div class=s-ser><img alt="" src="img/s-sprite-4.png" data-pagespeed-url-hash=580436880 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/s-sprite-4.png"/></div>
+</a>
+<div class=s-text><span class=slink><a href=""> ຊ່ວຍເຫຼືອດ້ວຍການເລືອກ <br/> ຫີນທີ່ເປັນ ເຄື່ອງລາງຂອງຂັງ</a></span>
+</div>
+</div>
+<div class=sser-pad>
+<a href="" title="Подробное толкование значения снов">
+<div class=s-ser><img alt="" src="img/s-sprite-5.png" data-pagespeed-url-hash=874936801 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/s-sprite-5.png"/></div>
+</a>
+<div class=s-text><span class=slink><a href=""> ການຕີຄວາມໝາຍ <br/> ຄວາມຝັນ</a></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden-sm hidden-xs" id=header-navigation>
+<div class=container>
+<nav id=menu>
+<ul class="nav clearfix">
+<li class="home cat-news"><a href=""><span class="glyphicon glyphicon-home"></span></a></li>
+<li class=cat-news>
+<a href=""><span class=ryear></span></a>
+</li>
+<li class=cat-news>
+<a href=""> ດວງຊະຕາລາສີ</a>
+</li>
+<li class=cat-news>
+<a href=""> ປະຕິທີນເດືອນ</a>
+</li>
+<li class=cat-news>
+<a href=""> ປະຕິທີນຈີນ</a>
+</li>
+<li class=cat-news>
+<a href=""> ວິທະຍາຕົວເລກ</a>
+</li>
+<li class=cat-news>
+<a href=""> ການທຳນາຍດວງ</a>
+</li>
+<li class=cat-news>
+<a href=""> ການທົດສອບ</a>
+</li>
+<li class=cat-news>
+<a href=""> ອື່ນໆ</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+<div class=bg>
+<div class=container>
+<div class=clearfix id=page-content>
+<div class=article id=main>
+<article class=article-post id=none-click>
+<header>
+<h1 class=zodi-1> ນັກໂຫລາສາດພຣະອາຈານ ພູເຂົາຄາດຄະເນ: "ຄົນເກີດໃນປີເຫຼົ່ານີ້ຈະຫລຸດພົ້ນອອກຈາກຄວາມທຸກຍາກໄວໆນີ້" </h1>
+</header>
+<div class=show-mob>
+<div class=sidebar>
+<section class=module-signs>
+<div style="background-color: #e5f3fd;">
+<ul class=horoscope-list>
+<center><img src="img/fotos.jpg" data-pagespeed-url-hash=1977368515 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/fotos.jpg"/>
+</center>
+<br/>
+<p>
+ໂຫລາສາດແມ່ນຊີວິດຂອງຂ້ອຍ. ມັນຍັງເປັນວິທະຍາສາດທີ່ຈິງຈັງ. ປາສະຈາກການຄົ້ນພົບປະຈຳວັນ, ທຸກສິ່ງທຸກຢ່າງຄ້າຍກັບວ່າບໍ່ແນ່ນອນ, ເລີ່ມຕົ້ນ, ຈຳກັດ ແລະ ທຳມະດາ.
+</p>
+</ul>
+</div>
+</section>
+<div style="clear: both"></div>
+</div>
+</div>
+<p class=lead> ດວງຊະຕາລາສີນີ້ໄດ້ກໍໃຫ້ມີບັນຫາແລ້ວ. ໜ້າເສຍດາຍ, <span class=month-add></span> ມັນຈະເປັນເດືອນທີ່ລຳບາກ ສຳລັບສອງລາສີຂອງປະຕິທີນຈີນ, ຂະນະທີ່ສາມລາສີອື່ນຈະໄດ້ຮັບເງິນຄຳຫລວງຫລາຍຢ່າງກະທັນຫັນ. ພຽງກົດໃສ່ສັດທີ່ເປັນຕົວແທນປີເຈົ້າເກີດ ແລະຊອກຫາສິ່່ງທີ່ລໍຖ້າເຈົ້າຢູ່. ຫວັງວ່າ ດວງຊະຕາລາສີຂອງຂ້ອຍຈະຊ່ວຍເຈົ້າຫລີກລຽງຫລາຍບັນຫາ ແລະເຮັດທາງເລືອກທີ່ຖືກຕ້ອງ. ດວງຊະຕາລາສີແມ່ນຟຣີ ແລະເຈົ້າສາມາດໃຊ້ມັນທຸກວັນ!
+</p>
+<div class=list-wrap>
+<div class=list id=zodiak>
+<div class=row>
+<div class="col-lg-2 col-md-4 col-sm-3 col-xs-6 list__item">
+<div class=zodiakText>
+<div class=zsign-wrap>
+<div class=icon><img alt="" src="img/icon-1.png" data-pagespeed-url-hash=4213979775 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/icon-1.png"/></div>
+<div class=zodiak-name> ປີ <span class=ztext> ສວດ </span></div>
+<div class=zyears>
+<div> 2008/1996 </div>
+<div> 1984/1972 </div>
+<div> 1960/1948 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-3 col-xs-6 list__item">
+<div class=zodiakText>
+<div class=zsign-wrap>
+<div class=icon><img alt="" src="img/icon-2.png" data-pagespeed-url-hash=213512400 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/icon-2.png"/></div>
+<div class=zodiak-name> ປີ <span class=ztext> ສະຫຼູ </span></div>
+<div class=zyears>
+<div> 2009/1997 </div>
+<div> 1985/1973 </div>
+<div> 1961/1949 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-3 col-xs-6 list__item">
+<div class=zodiakText>
+<div class=zsign-wrap>
+<div class=icon><img alt="" src="img/icon-3.png" data-pagespeed-url-hash=508012321 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/icon-3.png"/></div>
+<div class=zodiak-name> ປີ <span class=ztext> ຂານ </span></div>
+<div class=zyears>
+<div> 2010/1998 </div>
+<div> 1986/1974 </div>
+<div> 1962/1950 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-3 col-xs-6 list__item">
+<div class=zodiakText>
+<div class=zsign-wrap>
+<div class=icon><img alt="" src="img/icon-4.png" data-pagespeed-url-hash=802512242 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/icon-4.png"/></div>
+<div class=zodiak-name> ປີ <span class=ztext> ເຖາະ </span></div>
+<div class=zyears>
+<div> 2011/1999 </div>
+<div> 1987/1975 </div>
+<div> 1963/1951 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-3 col-xs-6 list__item">
+<div class=zodiakText>
+<div class=zsign-wrap>
+<div class=icon><img alt="" src="img/icon-5.png" data-pagespeed-url-hash=1097012163 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/icon-5.png"/></div>
+<div class=zodiak-name> ປີ <span class=ztext> ມະໂລງ </span></div>
+<div class=zyears>
+<div> 2012/2000 </div>
+<div> 1988/1976 </div>
+<div> 1964/1952 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-3 col-xs-6 list__item">
+<div class=zodiakText>
+<div class=zsign-wrap>
+<div class=icon><img alt="" src="img/icon-6.png" data-pagespeed-url-hash=1391512084 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/icon-6.png"/></div>
+<div class=zodiak-name> ປີ <span class=ztext> ມະເສງ </span></div>
+<div class=zyears>
+<div> 2013/2001 </div>
+<div> 1989/1977 </div>
+<div> 1965/1953 </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=row>
+<div class="col-lg-2 col-md-4 col-sm-3 col-xs-6 list__item">
+<div class=zodiakText>
+<div class=zsign-wrap>
+<div class=icon><img alt="" src="img/icon-7.png" data-pagespeed-url-hash=1686012005 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/icon-7.png"/></div>
+<div class=zodiak-name> ປີ <span class=ztext> ມະເມຍ </span></div>
+<div class=zyears>
+<div> 2014/2002 </div>
+<div> 1990/1978 </div>
+<div> 1966/1954 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-3 col-xs-6 list__item">
+<div class=zodiakText>
+<div class=zsign-wrap>
+<div class=icon><img alt="" src="img/icon-8.png" data-pagespeed-url-hash=1980511926 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/icon-8.png"/></div>
+<div class=zodiak-name> ປີ <span class=ztext> ມະແມ </span></div>
+<div class=zyears>
+<div> 2015/2003 </div>
+<div> 1991/1979 </div>
+<div> 1967/1955 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-3 col-xs-6 list__item">
+<div class=zodiakText>
+<div class=zsign-wrap>
+<div class=icon><img alt="" src="img/icon-9.png" data-pagespeed-url-hash=2275011847 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/icon-9.png"/></div>
+<div class=zodiak-name> ປີ <span class=ztext> ວອກ </span></div>
+<div class=zyears>
+<div> 2016/2004 </div>
+<div> 1992/1980 </div>
+<div> 1968/1956 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-3 col-xs-6 list__item">
+<div class=zodiakText>
+<div class=zsign-wrap>
+<div class=icon><img alt="" src="img/icon-10.png" data-pagespeed-url-hash=2716197815 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/icon-10.png"/></div>
+<div class=zodiak-name> ປີ <span class=ztext> ລະກາ </span></div>
+<div class=zyears>
+<div> 2017/2005 </div>
+<div> 1993/1981 </div>
+<div> 1969/1957 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-3 col-xs-6 list__item">
+<div class=zodiakText>
+<div class=zsign-wrap>
+<div class=icon><img alt="" src="img/icon-11.png" data-pagespeed-url-hash=3010697736 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/icon-11.png"/></div>
+<div class=zodiak-name> ປີ <span class=ztext> ຈໍ </span></div>
+<div class=zyears>
+<div> 2018/2006 </div>
+<div> 1994/1982 </div>
+<div> 1970/1958 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-3 col-xs-6 list__item">
+<div class=zodiakText>
+<div class=zsign-wrap>
+<div class=icon><img alt="" src="img/icon-12.png" data-pagespeed-url-hash=3305197657 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/icon-12.png"/></div>
+<div class=zodiak-name> ປີ <span class=ztext> ກຸນ </span></div>
+<div class=zyears>
+<div> 2019/2007 </div>
+<div> 1995/1983 </div>
+<div> 1971/1959 </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class=article-post id=article-post>
+<header>
+<h1 class=zodi-1>
+ດາວພະຫັດແລະດາວໂຄຜູ້ຈະໃຫ້ທຸກຄົນເກີດໃນປີ <span class=zodiacText></span> ທີ່ສົມບູນ ແລະມີຄວາມສຸກ <span class=month-add></span>
+</h1>
+</header>
+<p class=lead><b> ການພະຍາກອນທາງໂຫລາສາດສຳລັບເດືອນພະຈິກ <span class=ryear></span></b></p>
+<p class=lead> ຂໍສະແດງຄວາມຍິນດີ! ດວງດາວເຂົ້າຂ້າງຄົນທີ່ເກີດໃນປີ <span class=zodiacText></span> . ຈາກວັນແຮກຂອງເດືອນພະຈິກ, ຊີວິດຂອງເຈົ້າຈະເລີ່ມປ່ຽນແປງໃນທາງທີ່ດີກວ່າເດີມ. </p>
+<p class=lead> ໃນເດືອນພະຈິກ, ດາວເຄາະຜູ້ອາລັກຂາຈະລຽນເປັນແຖວ. ປາກົດການທີ່ນ້ອຍຈະເກີດຂຶ້ນທີ່ເຫລືອເຊື່ອນີ້ແມ່ນຮູ້ຈັກກັນດີຄື ເສັ້ນແຫ່ງຊີວິດ. ສິ່ງນີ້ຮັບປະກັນຄວາມສຸກ ແລະຄວາມຮັ່ງມີໃຫ້ເຈົ້າຕະຫລອດທັງປີ. ແຕ່ບໍ່ແມ່ນທຸກຄົນຈະສາມາດດຶງດູດໂຊກລາບ. ຂ້ອຍຈະສອນເຈົ້າວິທີງ່າຍສຸດເພື່ອເຮັດ ເສັ້ນແຫ່ງຊີວິດໄດ້ຜົນສຳລັບເຈົ້າ ແລະ ຄອບຄົວຂອງເຈົ້າ.
+</p>
+<p class=lead> ຂ້ອຍໄດ້ສຶກສາວິຊາ ໂຫລາສາດຫລາຍກວ່າ 40 ປີ ແລະໃນທີ່ສຸດ ຂ້ອຍເຂົ້າໃຈກົນໄກຂອງການດຶງດູດໂຊກ ແລະຄວາມຮັ່ງມີເຂົ້າມາຊີວິດຂອງເຈົ້າ. ຫລາຍໆຄົນຜູ້ທີ່ສູນເສຍຄວາມເຊື່ອໝັ້ນໃນຊີວິດມາຫາຂ້ອຍຂໍຄວາມຊ່ວຍເຫຼືອ. ຂ້ອຍແນະນຳພວກເຂົາຕາມເສັ້ນທາງສູ່ຄວາມສຸກ ແລະຄວາມອຸດົມສົມບູນ. ດຽວນີ້ຂ້ອຍພ້ອມໃນການແບ່ງປັນ ການຄົ້ນພົບຂອງຂ້ອຍກັບເຈົ້າ! </p>
+<p class=lead><b> ຈະກາຍເປັນຄົນຮັ່ງມີ ແລະມີຄວາມສຸກໄດ້ແນວໃດ? </b></p>
+<p class=lead> ເນື່ອງຈາກດາວພະຫັດເຂົ້າສູ່ ກຸ່ມດວງດາວຂອງ ດາວໂຄຜູ້ ແລະ ດາວເຄາະສ້າງ ເສັ້ນແຫ່ງຊີວິດ, ເຈົ້າຈະມີພຽງເຈັດວັນເພື່ອດຶງດູດເງິນຄຳ ແລະຄວາມສຸກເຂົ້າໃນຊີວິດຂອງເຈົ້າ. ໃນເວລານີ້, ເຈົ້າຈະຕ້ອງມີ <a href=""> Money Amulet</a> ແລະຖືມັນກັບເຈົ້ານັບແຕ່ນັ້ນ. </p>
+<p class=lead> ຫາກເຈົ້າຊື້ ແລະ "ຊາຣກ໌" Money Amulet ໃນອາທິດແຮກຂອງເດືອນພະຈິກ, ເຈົ້າຈະມີເງິນຕະຫລອດ, ຄວາມພະຍາຍາມທາງທຸລະກິດຂອງເຈົ້າທັງໝົດຈະປະສົບຜົນສຳເລັດໃນທີ່ສຸດ ແລະຈະບໍ່ມີມື້ທີ່ໂຊກຮ້າຍ. Amulet ທີ່ມະຫັດສະຈັນຈະປົກປ້ອງເຈົ້າຈາກ ສາຍຕາແຫ່ງຄວາມຊົ່ວຮ້າຍ ແລະຄວາມອິດສາ. </p>
+<p class=lead><a href=""> Money Amulet</a> ຈະຊ່ວຍຄອບຄົວທັງໝົດຂອງເຈົ້າ. ມັນນຳເອົາໂຊກທີ່ດີຕໍ່ຄົນທີ່ໃສ່ມັນ ແລະຄອບຄົວທັງໝົດຂອງພວກເຂົາ ແລະ ແມ້ກະທັ້ງ ເຮັດໃຫ້ຊີວິດງ່າຍຂຶ້ນສຳລັບ ບັນພະບຸລຸດຂອງພວກເຂົາເທິງສະຫວັນຊັ້ນຟ້າ. ຍາດພີ່ນ້ອງທີ່ລ່ວງລັບໄປຈະມີເງິນຄຳໃນໂລກຂອງຂະເຈົ້າ. ເຈົ້າແລະຫລານໆຂອງເຈົ້າຈະບໍ່ຕ້ອງຈູດເງິນເພື່ອສົ່ງມັນໃຫ້ ບັນພະບຸລຸດອີກ. </p>
+<p class=lead> ພຽງສິ່ງດຽວຄົນທີ່ເກີດໃນປີ <span class=zodiacText></span> ຄວນຈະຢ້ານກົວເດືອນພະຈິກນີ້ຄື ສິ່ງຊົ່ວຮ້າຍ ແລະດວງຕາແຫ່ງຄວາມຊົ່ວຮ້າຍ. ຄົນທັງຫລາຍແມ່ນເຕັມໄປດ້ວຍຄວາມອິດສາ ແລະຄວາມສຳເລັດຂອງເຈົ້າອາດເຮັດໃຫ້ຂະເຈົ້າກະວົນກະວາຍ. ຍ້ອນແນວນັ້ນເຈົ້າຄວນລະມັດລະວັງ ສາຍຕາແຫ່ງຄວາມຊົ່ວຮ້າຍ. ຖ້າບໍ່ດັ່ງນັ້ນ, ໂຊກຈະໜີຫ່າງຈາກເຈົ້າຊົ່ວນິລັນ ແລະເຈົ້າຈະສູນເສຍຄວາມຮັ່ງມີທັງໝົດຂອງເຈົ້າ. ນີ້ແມ່ນອັນຕະລາຍມະຫັນ! </p>
+<p class=lead> ແຕ່ Amulet ນີ້ຈະປົກປ້ອງເຈົ້າຈາກ ສາຍຕາແຫ່ງຄວາມຊົ່ວຮ້າຍ. ຂ້ອຍຮັບປະກັນດ້ວຍຕົນເອງວ່າ ເຈົ້າຈະຮູ້ສືກເຖິງພະລັງຂອງມັນໃນ 2 ອາທິດທຳອິດ. </p>
+<p class=lead><b> ຍ້ອນຫຍັງເຈົ້າຈຶ່ງຕ້ອງການ <a href=""> Money Amulet</a></b></p>
+<p class=lead> ເຄື່ອງລາງດຶງດູດພະລັງງານເງິນທີ່ເຈົ້າຂອງມັນບໍ່ເຄີຍມີມາກ່ອນ ແລະ ຊີ້ແນະທິດທາງເງິນໄປຍັງເຮືອນ ແລະກະເປົາເງິນຂອງເຈົ້າຂອງຂອງມັນໂດຍກົງ. ນີ້ຈະສົ່ງຜົນໃຫ້ມີການປ່ຽນແປງດັ່ງເຊັ່ນ: </p>
+<ul>
+<li> ເຈົ້າຈະໄດ້ຮັບເງິນເດືອນເພີ່ມຂຶ້ນ; </li>
+<li> ເຈົ້າຈະໄດ້ຮັບການເລື່ອນຕຳແໜ່ງ ຫລື ວຽກທີ່ມີຄ່າແຮງສູງ; </li>
+<li> ຈະໄດ້ຮັບເງິນຈາກການໃຊ້ໜີ້ເກົ່າ ຊຶ່ງເຈົ້າອາດລືມໄປແລ້ວ; </li>
+<li> ເຈົ້າຈະຊອກພົບເງິນທີ່ເຈົ້າເຮັດເຮັ່ຍ; </li>
+<li> ເຈົ້າຈະສາມາດຊື້ບາງສິ່ງທີ່ເຈົ້າເຄີຍຝັນມາຕະຫລອດ; </li>
+<li> ທຸລະກິດຂອງເຈົ້າຈະສ້າງລາຍຮັບມະຫາສານ. </li>
+</ul>
+<p class=lead> Money Amulet ຈະນຳເອົາຄວາມຮັ່ງມີ ແລະຄວາມສຸກເຂົ້າໃນ ຊີວິດຂອງເຈົ້າ. ຄູູ່ສົມຣົດຂອງເຈົ້າ ແລະລູກໆຈະມີຄວາມສຸກແລະໂຊກດີຢ່າງເຫຼືອເຊື່ອເລີຍ. ຫາກເຈົ້າໂສດ, ເຈົ້າຈະພົບຮັກ, ຂອບໃຈສຳລັບຄວາມຮັ່ງມີທີ່ເກີດຂຶ້ນກະທັນຫັນນີ້. </p>
+<p class=lead> ຫາກເຈົ້າບໍ່ຕ້ອງການພາດໂອກາດຂອງເຈົ້າ, ສັ່ງຊື້ <a href=""> Money Amulet ຂອງເຈົ້າທີ່ນີ້</a>. ຢ່າປ່ອຍໃຫ້ຄວາມຍາກຈົນ ແລະຄວາມລຳບາກເກີດຂຶ້ນໃນເຮືອນຂອງເຈົ້າ. ໃຫ້ຄວາມຮັ່ງມີ ແລະຄວາມສີວິໄລກາຍເປັນແຊມປ້ຽນແຫ່ງຄວາມເຊື່ອໝັ້ນຂອງເຈົ້າ! </p>
+<center>
+<a href=""><img alt="" src="img/product.png" data-pagespeed-url-hash=3439783607 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/product.png"/></a>
+<a class=btn href="">
+<div class=btn_text> ສັ່ງຊື້ Money Amulet </div>
+<img class=btn_arrow src="img/arrow.png" data-pagespeed-url-hash=998921857 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/arrow.png"/>
+</a>
+</center>
+</article>
+<form class=order-form action="https://trackerlead.biz/" method=POST><span class=order-form__price> <span class=price_land_s4>710000</span> <span class=price_land_curr>LAK</span> </span> <span class=order-form__price> <span class=price_land_s1>355000</span> <span class=price_land_curr>LAK</span> </span> <label class=order-form__label>ຊື່ເຕັມ:</label> <input class=order-form__text type=text name=name required placeholder="ຊື່ເຕັມ">
+<label class=order-form__label>ໂທລະສັບ:</label> <input class=order-form__text type=text name=phone required placeholder="ໂທລະສັບ">
+<button class=order-form__button>ການສັ່ງຊື້</button>
+<input type=hidden name=s1 class=price_field_s1 value=355000> <input type=hidden name=s2 class=price_field_s2 value=27000> <input type=hidden name=s3 class=price_field_s3 value=382000> <input type=hidden name=scenario value=normal_blog />
+<input type=hidden name=language value=lo />
+<input type=hidden name=offer_id value=4049 />
+<input type=hidden name=transit value=9111 />
+<input type=hidden name=campaign value=3285 />
+<input type=hidden name=referer value="https://blogs-info.info/moneyamulet-prokla13-a/css/A.font-awesome.min.css.pagespeed.cf.g1qbqE_BkQ.css"/>
+<input type=hidden name=order_source value=2 />
+<input type=hidden name=return_url value="https://blogs-info.info/moneyamulet-prokla13-a"/> </form>
+<div class=comments>
+<div class=title> ຄຳເຫັນ: </div>
+<div class=comment>
+<div class=avatar>
+<img alt="" src="img/avatar1.jpg" data-pagespeed-url-hash=873125796 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/avatar1.jpg"/>
+</div>
+<div class=message>
+<div class=info>
+<b> ບຸດດີ </b>
+<span><script>dtime_nums(-6,true)</script></span>
+</div>
+<div class=text>
+ສະບາຍດີ ພູເຂົາຄາດຄະເນ, ຂ້ອຍໄດ້ສົ່ງ ການຕິຊົມຂອງຂ້ອຍທາງອີເມວແລ້ວ ແຕ່ໃຫ້ຂ້ອຍ ແຊຣ໌ຄວາມເຫັນຂອງຂ້ອຍທີ່ນີ້ເຊັ່ນກັນ. ຫົກເດືອນກ່ອນ ຄອບຄົວຂອງຂ້ອຍປະເຊີນກັບເລື່ອງຕ່າງໆທີ່ໂຊກຮ້າຍ. ຂ້ອຍຖືກໄລ່ອອກຈາກວຽກທີ່ມີເງິນເດືອນສູງ, ເມຍຂອງຂ້ອຍປະຂ້ອຍໄປຫາຊາຍອື່ນ, ລູກຊາຍໂທນຂອງຂ້ອຍເຂົ້າຢູ່ໃນກຸ່ມພວກບໍ່ດີ. ຂ້ອຍບໍ່ເຊື່ອໃນຄວາມມະຫັດສະຈັນ ແຕ່ຂ້ອຍສັ່ງຊື້ ເຄື່ອງລາງຂອງເຈົ້າເພື່ອຫວັງພົ້ນຈາກສິ່ງບໍ່ດີ. ສອງສາມມື້ຕໍ່ມາ, ໄດ້ເກີດເລື່ອງມະຫັດສະຈັນຂຶ້ນ! ຂ້ອຍຈະບໍ່ໄປທີ່ລາຍລະອຽດ ແຕ່ມັນເກີດຂຶ້ນຄື ເມຍຂອງຂ້ອຍກັບມາ, ລູກຊາຍສືບຕໍ່ ການຮຽນຂອງລາວອີກຄັ້ງ ແລະ ຂ້ອຍໄດ້ວຽກໃໝ່ທີ່ມີເງິນເດືອນສູງກວ່າເດີມ. ຂອບໃຈຫລາຍໆ! ຂໍໃຫ້ທຸກຄົນໂຊກດີ!
+</div>
+</div>
+</div>
+<div class="comment answer">
+<div class=avatar>
+<img alt="" src="img/avatargl.jpg" data-pagespeed-url-hash=3887770948 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/avatargl.jpg"/>
+</div>
+<div class=message>
+<div class=info>
+<b> ພູເຂົາຄາດຄະເນ: </b>
+<span><script>dtime_nums(-6,true)</script></span>
+</div>
+<div class=text>
+ຂອບໃຈຫລາຍໆສຳລັບ ຄຳຄິດເຫັນຕິຊົມ. ຂ້ອຍໄດ້ຮັບອີເມວແລ້ວ. ຂ້ອຍດີໃຈທີ່ສາມາດຊ່ວຍເຈົ້າແກ້ໄຂບັນຫາຂອງເຈົ້າ. ຂ້ອຍຈະພາວະນາໃຫ້ເຈົ້າ ແລະ ຄອບຄົວຂອງເຈົ້າໃຫ້ພົ້ນເຄາະກຳ.
+</div>
+</div>
+</div>
+<div class=comment>
+<div class=avatar>
+<img alt="" src="img/xavatar2.jpg.pagespeed.ic.eQvkC_-8nH.jpg" data-pagespeed-url-hash=1167625717 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+</div>
+<div class=message>
+<div class=info>
+<b> ທະວີສິນ </b>
+<span><script>dtime_nums(-5,true)</script></span>
+</div>
+<div class=text>
+ຮາໂລ້, ພູເຂົາຄາດຄະເນ! 3 ປີກ່ອນ <a href=""> ຂ້ອຍຊື້ ເຄື່ອງລາງຈາກເຈົ້າ</a>. ຂ້ອຍໄດ້ຮັບ ການຫລຸດລາຄາສູງຫລາຍເມື່ອສັ່ງຊື້ຈາກ ເວັບໄຊທ໌. ຂ້ອຍບໍ່ຮູ້ວ່າມັນບັງເອີນ ຫລື ການກະທຳຂອງ ເຄື່ອງລາງ, ແຕ່ໜຶ່ງອາທິດກ່ອນ, ສາມີຂອງຂ້ອຍໄດ້ຮັບການເລື່ອນຕຳແໜ່ງຈາກ ຫົວໜ້າພະແນກ ເປັນ ຜູ້ອຳນວຍການ ການພັດທະນາທຸລະກິດ. ພວກເຮົາບໍ່ສາມາດແມ້ກະທັ້ງຝັນເຖິງມັນ! ເງິນເດືອນໃໝ່ຂອງລາວແມ່ນສູງຫລາຍຈົນພວກເຮົາສາມາດໃຊ້ 20% ຂອງມັນເຂົ້າໃນ ການຕົບແຕ່ງບ້ານໃໝ່ ແລະ ໃຊ້ສ່ວນທີ່ເຫລືອ ໃຊ້ຊີວີດຢ່າງຫລູຫລາ.
+</div>
+</div>
+</div>
+<div class=comment>
+<div class=avatar>
+<img alt="" src="img/avatar6.jpg" data-pagespeed-url-hash=2345625401 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/avatar6.jpg"/>
+</div>
+<div class=message>
+<div class=info>
+<b> ຄຳສຸກ: </b>
+<span><script>dtime_nums(-5,true)</script></span>
+</div>
+<div class=text>
+ສະບາຍດີ! ຂ້ອຍສົງໄສສະເໝີສຳລັບການມີຢູ່ຂອງປະກົດການເໜືອທຳມະຊາດ, ແຕ່ ສອງເດືອນກ່ອນ, ຂ້ອຍປະສົບຄວາມລຳບາກໃນຊີວິດ. ທຸກຢ່າງໄປໃນທາງທີ່ຜິດ ແລະ ຂ້ອຍພ້ອມທີ່ຈະເຮັດທຸກຢ່າງເພື່ອເອົາຊີວິດກັບຄືນມາເໝືອນເດີມ. ຂ້ອຍໄດ້ຖືເຄື່ອງລາງໃນຖົງເປັນເວລາໜຶ່ງເດືອນ ແລະ ທຸລະກິດຂອງຂ້ອຍເລີ່ມສະແດງການຟື້ນຕົວຂຶ້ນ. ຂ້ອຍໄດ້ແນະນຳແລ້ວສຳລັບ ເຄື່ອງລາງນີ້ໃຫ້ເພື່ອນທັງໝົດຂອງຂ້ອຍ.
+</div>
+</div>
+</div>
+<div class=comment>
+<div class=avatar>
+<img alt="" src="img/avatar3.jpg" data-pagespeed-url-hash=1462125638 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/avatar3.jpg"/>
+</div>
+<div class=message>
+<div class=info>
+<b> ເພັດ: </b>
+<span><script>dtime_nums(-5,true)</script></span>
+</div>
+<div class=text>
+ໃຫ້ຂ້ອຍແຊຣ ຄວາມເຫັນຂອງຂ້ອຍ. ຂ້ອຍໄດ້ຊື້ <a href=""> ເຄື່ອງລາງນີ້</a> ຫົກເດືອນກ່ອນ ແລະ ຂ້ອຍແນ່ໃຈ 100% ວ່າມັນແມ່ນ Money Amulet ທີ່ຊ່ວຍຂ້ອຍຈ່າຍຄ່າເງິນກູ້ກ່ອນກຳນົດຫລາຍປີ.
+</div>
+</div>
+</div>
+<div class="comment answer">
+<div class=avatar>
+<img alt="" src="img/avatargl.jpg" data-pagespeed-url-hash=3887770948 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/avatargl.jpg"/>
+</div>
+<div class=message>
+<div class=info>
+<b> ພູເຂົາຄາດຄະເນ: </b>
+<span><script>dtime_nums(-4,true)</script></span>
+</div>
+<div class=text>
+ສະບາຍດີ! ຂ້ອຍດີໃຈທີ່ສາມາດຊ່ວຍໄດ້.
+</div>
+</div>
+</div>
+<div class=comment>
+<div class=avatar>
+<img alt="" src="img/avatar4.jpg" data-pagespeed-url-hash=1756625559 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/avatar4.jpg"/>
+</div>
+<div class=message>
+<div class=info>
+<b> ດອກຫຍ້າ: </b>
+<span><script>dtime_nums(-4,true)</script></span>
+</div>
+<div class=text>
+ຂ້ອຍໄດ້ຍິນກ່ຽວກັບ ເຄື່ອງລາງທີ່ມີພະລັງເຮັດຂຶ້ນໂດຍ ຄູບາຈາກຕີເບດຂອງຂ້ອຍ. ຂ້ອຍຍັງບໍ່ໄດ້ຮັບ ເຄື່ອງລາງຂອງຂ້ອຍເທື່ອ ສະນັ້ນຂ້ອຍບໍ່ສາມາດເວົ້າຫຍັງກ່ຽວກັບລິດເດດຂອງມັນ. ຂ້ອຍສັ່ງຊື້ແລ້ວມື້ວານນີ້. ແຕ່ຂ້ອຍຄິດວ່າເຈົ້າຕ້ອງເຊື່ອໃນພະລັງຂອງມັນ. ແລະຈາກນັ້ນມັນຈະສະແດງຄວາມະຫັດສະຈັນຂອງມັນອອກມາ.
+</div>
+</div>
+</div>
+<div class=comment>
+<div class=avatar>
+<img alt="" src="img/avatargl.jpg" data-pagespeed-url-hash=3887770948 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/avatargl.jpg"/>
+</div>
+<div class=message>
+<div class=info>
+<b> ພູເຂົາຄາດຄະເນ: </b>
+<span><script>dtime_nums(-3,true)</script></span>
+</div>
+<div class=text>
+ສະບາຍດີຍາມບ່າຍ! ແມ່ນແທ້ຈິງແນ່ນອນ. ເຈົ້າເຕີມ <a href=""> ເຄື່ອງລາງເປັນປະຈຳ</a> ດ້ວຍຄວາມເຊື່ອຂອງເຈົ້າ, ເຮັດໃຫ້ການກະທຳຂອງມັນ ແຂງແກ່ນຍິ່ງຂຶ້ນ. ຂ້ອຍຮູ້ອັນນີ້ແນ່ນອນເພາະວ່າ ເຄື່ອງລາງຂອງຂ້ອຍຢູ່ນຳຂ້ອຍເຈັດປີແລ້ວ
+</div>
+</div>
+</div>
+<div class="comment answer">
+<div class=avatar>
+<img alt="" src="img/ava5.jpg" data-pagespeed-url-hash=3807778215 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/ava5.jpg"/>
+</div>
+<div class=message>
+<div class=info>
+<b> ແກ້ວ: </b>
+<span><script>dtime_nums(-3,true)</script></span>
+</div>
+<div class=text>
+ຂ້ອຍໄດ້ຮັບ ເຄື່ອງລາງຂອງຂ້ອຍວານນີ້. ມັນເບິ່ງຄືງາມຫລາຍ. ຂ້ອຍບໍ່ໄດ້ຄາດຫວັງສິ່ງນັ້ນ. ຂອບໃຈສຳລັບການຫລຸດລາຄາ! ຂ້ອຍຈະໃຫ້ເຈົ້າຮູ້ເມື່ອມັນຊ່ວຍຂ້ອຍບັນລຸຄວາມຝັນຂອງຂ້ອຍ:)
+</div>
+</div>
+</div>
+<div class=comment>
+<div class=avatar>
+<img alt="" src="img/avatargl.jpg" data-pagespeed-url-hash=3887770948 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/avatargl.jpg"/>
+</div>
+<div class=message>
+<div class=info>
+<b> ພູເຂົາຄາດຄະເນ: </b>
+<span><script>dtime_nums(-2,true)</script></span>
+</div>
+<div class=text>
+ຍິນດີ. ຖື <a href=""> ເຄື່ອງລາງເປັນປະຈຳ</a> ຕິດຕົວຕະຫລອດເວລາ ແລະການກະທຳທີ່ມີພະລັງຂອງມັນຈະເຮັດໃຫ້ແປກໃຈ, ເຊື່ອຂ້ອຍ :)
+</div>
+</div>
+</div>
+<div class=comment>
+<div class=avatar>
+<img alt="" src="img/avatar8.jpg" data-pagespeed-url-hash=2934625243 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/avatar8.jpg"/>
+</div>
+<div class=message>
+<div class=info>
+<b> ວິໄລສັກ: </b>
+<span><script>dtime_nums(-2,true)</script></span>
+</div>
+<div class=text>
+ມີໃຜຢູ່ນີ້ສົງໄສກັບຄຳເວົ້າຂອງ ພູເຂົາຄາດຄະເນ? ຂ້ອຍເຊື່ອເຈົ້າແນ່ນອນແລະ ເຄື່ອງລາງຂອງຂ້ອຍຢູ່ນຳຂ້ອຍໜຶ່ງປີແລ້ວ. ຂ້ອຍຈະບໍ່ເວົ້າໂມ້ກ່ຽວກັບຄວາມສຳເລັດຂອງຂ້ອຍ, ແຕ່ເຊື່ອຂ້ອຍ, ເຄື່ອງລາງຊ່ວຍຂ້ອຍຫລາຍໆເລີຍ. ຂ້ອຍດີໃຈຫລາຍໆສຳລັບການຊ່ວຍເຫລືອຂອງເຈົ້າ.
+</div>
+</div>
+</div>
+<div class=comment>
+<div class=avatar>
+<img alt="" src="img/ava7.jpg" data-pagespeed-url-hash=101810761 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/ava7.jpg"/>
+</div>
+<div class=message>
+<div class=info>
+<b> ພິດສະໄໝ </b>
+<span><script>dtime_nums(-2,true)</script></span>
+</div>
+<div class=text>
+ຂ້ອຍໄດ້ສັ່ງຊື້ແລ້ວ <a href=""> ເຄື່ອງລາງ</a> ມື້ນີ້. ໃຫ້ຂ້ອຍບອກເຈົ້າບາງຢ່າງ. ມັນສຳຄັນໃນການຊື້ ເຄື່ອງລາງຂອງຂັງຈາກ ແຫລ່ງທີ່ເຊື່ອຖື ແລະໄວ້ວາງໃຈ. ຈາກນັ້ນມັນຈະໄດ້ຜົນແນ່ນອນ. ມີຂອງປອມຈາກຈີນຢູ່ບ່ອນນັ້ນ, ລະວັງແດ່ເດີ້.
+</div>
+</div>
+</div>
+<div class="comment answer">
+<div class=avatar>
+<img alt="" src="img/avatargl.jpg" data-pagespeed-url-hash=3887770948 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/avatargl.jpg"/>
+</div>
+<div class=message>
+<div class=info>
+<b> ພູເຂົາຄາດຄະເນ: </b>
+<span><script>dtime_nums(-2,true)</script></span>
+</div>
+<div class=text>
+ເຈົ້າຖືກຕ້ອງ. ມີ ເຄື່ອງລາງຂອງຂັງທີ່ເປັນຂອງປອມຫລວງຫລາຍ ແຕ່ຂ້ອຍຮັບປະກັນວ່າ <a href=""> ເວັບໄຊທ໌ຂອງຂ້ອຍ</a> ຂາຍຂອງແທ້ ແລະໂຕທີ່ມີປະຕິຫານ
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=sidebar>
+<section class=module-signs>
+<header>
+<h2> ພູເຂົາຄາດຄະເນ </h2>
+<span class=borderline></span>
+</header>
+<div style="background-color: #e5f3fd;">
+<ul class=horoscope-list>
+<center><img src="img/fotos.jpg" data-pagespeed-url-hash=1977368515 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-pagespeed-lsc-url="https://blogs-info.info/moneyamulet-prokla13-a/img/fotos.jpg"/>
+</center>
+<br/>
+<p>
+ໂຫລາສາດແມ່ນຊີວິດຂອງຂ້ອຍ. ມັນຍັງເປັນວິທະຍາສາດທີ່ຈິງຈັງ. ປາສະຈາກການຄົ້ນພົບປະຈຳວັນ, ທຸກສິ່ງທຸກຢ່າງຄ້າຍກັບວ່າບໍ່ແນ່ນອນ, ເລີ່ມຕົ້ນ, ຈຳກັດ ແລະ ທຳມະດາ.
+</p>
+</ul>
+</div>
+</section>
+<div style="clear: both"></div>
+</div>
+</div>
+</div>
+<footer id=page-footer>
+<div class=container>
+<div class=copyright>
+<br/> © 2015- <span class=ryear></span> . ຫ້າມສຳເນົາ ຫລື ສ້າງຄືນ ເວັບໄຊທ໌ນີ້ ຫລື ສ່ວນໃດສ່ວນໜຶ່ງຂອງມັນ. <br/>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</div>
+<script>var d=new Date();var month=new Array("ມັງກອນ","ກຸມພາ","ເດືອນມີນາ","ເມສາ","ພຶດສະພາ","ມິຖຸນາ","ເດືອນກໍລະກົດ","ສິງຫາ","ເດືອນກັນຍາ","ເດືອນຕຸລາ","ເດືອນພະຈິກ","ເດືອນທັນວາ");d.setDate(d.getDate()+30);var monthAdds=document.querySelectorAll(".month-add");for(var i=0;i<monthAdds.length;i++){monthAdds[i].innerText=month[d.getMonth()];}</script>
+<script src="js/main.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+<div class=ac_footer>
+<a href="">Report</a>
+<p></p>
+</div>
+<script>if(!window.jQuery){document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"><\/script>');}</script>
+<script>tmp_data_to_server="https://blogs-info.info/";country_list={"LA":{"s1":355000,"s2":27000,"s3":382000,"s4":710000,"discount":"50","curr":"LAK","specialfields":[],"rekv":"Netline LLC\u003Cbr\u003E129281, Moscow, ul. Izumrudnaya, d. 13, k. 2, et. 1, pom. 1, kom. 2, of. 4\u003Cbr\u003E","campaign":"3285"},"TH":{"s1":890,"s2":0,"s3":890,"s4":1780,"discount":"50","curr":"THB","specialfields":[],"rekv":"Netline LLC\u003Cbr\u003E129281, Moscow, ul. Izumrudnaya, d. 13, k. 2, et. 1, pom. 1, kom. 2, of. 4\u003Cbr\u003E","campaign":"1457"}};json_query=[];country='LA';action_url="https://trackerlead.biz/";request_id='b4f115fe05810bdd33fff9b2ecd6c567';list_of_form_parameters='{"scenario":"normal_blog","language":"lo","offer_id":"4049","transit":"9111","campaign":"3285","referer":"https:\/\/blogs-info.info\/moneyamulet-prokla13-a\/css\/A.font-awesome.min.css.pagespeed.cf.g1qbqE_BkQ.css","order_source":"2","return_url":"https:\/\/blogs-info.info\/moneyamulet-prokla13-a"}';city='Kharkiv';isJsonEnable=0;text_item_is_free='ສໍາລັບການຟຣີ';KMAText={'validation_name':'ລະບຸຊື່ທີ່ຖືກຕ້ອງ.','validation_phone1':'ເລກໝາຍໂທລະສັບອາດຈະມີໄດ້ພຽງແຕ່ຕົວເລກ,"+", "-", "(", ")" ແລະ ຍະວ່າງເທົ່ານັ້ນ.','validation_phone2':'ໂທລະສັບຂອງທ່ານມີຕົວເລກໜ້ອຍເກີນໄປ.','validation_phone3':'ໂທລະສັບຂອງທ່ານມີຕົວເລກຫຼາຍເກີດໄປ.','comebacker_text':'WARNING'};</script>
+<script src="/shared_files/js/custom-functions.min.js?16"></script>
+<script>var d=document.getElementsByTagName('a'),i=d.length;while(i--){d[i].setAttribute('href','http://as.money-amulet.org/?a_bid=5405&campaign=3285&lang=lo&ufl=9111&referer=https%3A%2F%2Fblogs-info.info%2Fmoneyamulet-prokla13-a%2Fcss%2FA.font-awesome.min.css.pagespeed.cf.g1qbqE_BkQ.css&uuc=1&vitrina=1&scenario=normal_blog&cpa=kma');d[i].setAttribute('target','_blank');}</script>
+<script>$(function(){KMA.changeDataCountry(country);KMA.changeDataNotCountry(country);KMA.validateAndSendForm(isJsonEnable,KMAText);$("form[action='"+action_url+"']").attr({"data-kma-yacounter-goal":"ym_formsend","data-kma-ga-goal":"ga_formsend","data-kma-yacounter-id":"54063625"});$("a[href]").attr({"data-trigger":"click","data-ym-goal":"ym_golp","data-ga-goal":"ga_golp","data-ym-id":"54063625"});});</script>
+<script src="/src/js/backfix.min.js"></script>
+<script>setTimeout(function(){bajb_backdetect.OnBack=function(){window.history.back=function(){document.location='http://as.money-amulet.org/?a_bid=5405&campaign=3285&lang=lo&ufl=9111&referer=https%3A%2F%2Fblogs-info.info%2Fmoneyamulet-prokla13-a%2Fcss%2FA.font-awesome.min.css.pagespeed.cf.g1qbqE_BkQ.css&uuc=1&vitrina=1&scenario=normal_blog&cpa=kma&action=back'}}},200);</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141797677-2"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set',{'user_id':'USER_ID'});gtag('config','UA-141797677-2',{'optimize_id':'GTM-NLB4JPL'},{'linker':{'domains':['blogs-info.info','previewpreland.pro']}});</script>
+<script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};h._hjSettings={hjid:1363558,hjsv:6};a=o.getElementsByTagName('head')[0];r=o.createElement('script');r.async=1;r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;a.appendChild(r);})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');</script>
+<script>(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,"script","https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js","ym");ym(54063625,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/54063625" style="position:absolute; left:-9999px;" alt="" data-pagespeed-url-hash=3966924731 /></div></noscript>
+<script async src="https://nothingimportant.pro/watch.js?1"></script>
+<script async src="https://cdnkma.biz/custom.min.js"></script>
+<script>(function(e,a){var t,r=e.getElementsByTagName("head")[0],c=e.location.protocol;t=e.createElement("script");t.type="text/javascript";t.charset="utf-8";t.async=!0;t.defer=!0;t.src=c+"//front.optimonk.com/public/"+a+"/js/preload.js";r.appendChild(t);})(document,"104490");</script>
+<script data-pagespeed-no-defer type="text/javascript">(function(){function f(b){var a=window;if(a.addEventListener)a.addEventListener("load",b,!1);else if(a.attachEvent)a.attachEvent("onload",b);else{var c=a.onload;a.onload=function(){b.call(this);c&&c.call(this)}}};window.pagespeed=window.pagespeed||{};var k=window.pagespeed;function l(b,a,c,g,h){this.h=b;this.i=a;this.l=c;this.j=g;this.b=h;this.c=[];this.a=0}l.prototype.f=function(b){for(var a=0;250>a&&this.a<this.b.length;++a,++this.a)try{document.querySelector(this.b[this.a])&&this.c.push(this.b[this.a])}catch(c){}this.a<this.b.length?window.setTimeout(this.f.bind(this),0,b):b()};
+k.g=function(b,a,c,g,h){if(document.querySelector&&Function.prototype.bind){var d=new l(b,a,c,g,h);f(function(){window.setTimeout(function(){d.f(function(){for(var a="oh="+d.l+"&n="+d.j,a=a+"&cs=",b=0;b<d.c.length;++b){var c=0<b?",":"",c=c+encodeURIComponent(d.c[b]);if(131072<a.length+c.length)break;a+=c}k.criticalCssBeaconData=a;var b=d.h,c=d.i,e;if(window.XMLHttpRequest)e=new XMLHttpRequest;else if(window.ActiveXObject)try{e=new ActiveXObject("Msxml2.XMLHTTP")}catch(m){try{e=new ActiveXObject("Microsoft.XMLHTTP")}catch(n){}}e&&
+(e.open("POST",b+(-1==b.indexOf("?")?"?":"&")+"url="+encodeURIComponent(c)),e.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),e.send(a))})},0)})}};k.criticalCssBeaconInit=k.g;})();
+pagespeed.selectors=[".ac_footer",".ac_footer a",".ac_footer p",".fa",".fa-2x",".fa-3x",".fa-4x",".fa-500px",".fa-5x",".fa-adjust",".fa-adn",".fa-align-center",".fa-align-justify",".fa-align-left",".fa-align-right",".fa-amazon",".fa-ambulance",".fa-anchor",".fa-android",".fa-angellist",".fa-angle-double-down",".fa-angle-double-left",".fa-angle-double-right",".fa-angle-double-up",".fa-angle-down",".fa-angle-left",".fa-angle-right",".fa-angle-up",".fa-apple",".fa-archive",".fa-area-chart",".fa-arrow-circle-down",".fa-arrow-circle-left",".fa-arrow-circle-o-down",".fa-arrow-circle-o-left",".fa-arrow-circle-o-right",".fa-arrow-circle-o-up",".fa-arrow-circle-right",".fa-arrow-circle-up",".fa-arrow-down",".fa-arrow-left",".fa-arrow-right",".fa-arrow-up",".fa-arrows",".fa-arrows-alt",".fa-arrows-h",".fa-arrows-v",".fa-asterisk",".fa-at",".fa-automobile",".fa-backward",".fa-balance-scale",".fa-ban",".fa-bank",".fa-bar-chart",".fa-bar-chart-o",".fa-barcode",".fa-bars",".fa-battery-0",".fa-battery-1",".fa-battery-2",".fa-battery-3",".fa-battery-4",".fa-battery-empty",".fa-battery-full",".fa-battery-half",".fa-battery-quarter",".fa-battery-three-quarters",".fa-bed",".fa-beer",".fa-behance",".fa-behance-square",".fa-bell",".fa-bell-o",".fa-bell-slash",".fa-bell-slash-o",".fa-bicycle",".fa-binoculars",".fa-birthday-cake",".fa-bitbucket",".fa-bitbucket-square",".fa-bitcoin",".fa-black-tie",".fa-bluetooth",".fa-bluetooth-b",".fa-bold",".fa-bolt",".fa-bomb",".fa-book",".fa-bookmark",".fa-bookmark-o",".fa-border",".fa-briefcase",".fa-btc",".fa-bug",".fa-building",".fa-building-o",".fa-bullhorn",".fa-bullseye",".fa-bus",".fa-buysellads",".fa-cab",".fa-calculator",".fa-calendar",".fa-calendar-check-o",".fa-calendar-minus-o",".fa-calendar-o",".fa-calendar-plus-o",".fa-calendar-times-o",".fa-camera",".fa-camera-retro",".fa-car",".fa-caret-down",".fa-caret-left",".fa-caret-right",".fa-caret-square-o-down",".fa-caret-square-o-left",".fa-caret-square-o-right",".fa-caret-square-o-up",".fa-caret-up",".fa-cart-arrow-down",".fa-cart-plus",".fa-cc",".fa-cc-amex",".fa-cc-diners-club",".fa-cc-discover",".fa-cc-jcb",".fa-cc-mastercard",".fa-cc-paypal",".fa-cc-stripe",".fa-cc-visa",".fa-certificate",".fa-chain",".fa-chain-broken",".fa-check",".fa-check-circle",".fa-check-circle-o",".fa-check-square",".fa-check-square-o",".fa-chevron-circle-down",".fa-chevron-circle-left",".fa-chevron-circle-right",".fa-chevron-circle-up",".fa-chevron-down",".fa-chevron-left",".fa-chevron-right",".fa-chevron-up",".fa-child",".fa-chrome",".fa-circle",".fa-circle-o",".fa-circle-o-notch",".fa-circle-thin",".fa-clipboard",".fa-clock-o",".fa-clone",".fa-close",".fa-cloud",".fa-cloud-download",".fa-cloud-upload",".fa-cny",".fa-code",".fa-code-fork",".fa-codepen",".fa-codiepie",".fa-coffee",".fa-cog",".fa-cogs",".fa-columns",".fa-comment",".fa-comment-o",".fa-commenting",".fa-commenting-o",".fa-comments",".fa-comments-o",".fa-compass",".fa-compress",".fa-connectdevelop",".fa-contao",".fa-copy",".fa-copyright",".fa-creative-commons",".fa-credit-card",".fa-credit-card-alt",".fa-crop",".fa-crosshairs",".fa-css3",".fa-cube",".fa-cubes",".fa-cut",".fa-cutlery",".fa-dashboard",".fa-dashcube",".fa-database",".fa-dedent",".fa-delicious",".fa-desktop",".fa-deviantart",".fa-diamond",".fa-digg",".fa-dollar",".fa-dot-circle-o",".fa-download",".fa-dribbble",".fa-dropbox",".fa-drupal",".fa-edge",".fa-edit",".fa-eject",".fa-ellipsis-h",".fa-ellipsis-v",".fa-empire",".fa-envelope",".fa-envelope-o",".fa-envelope-square",".fa-eraser",".fa-eur",".fa-euro",".fa-exchange",".fa-exclamation",".fa-exclamation-circle",".fa-exclamation-triangle",".fa-expand",".fa-expeditedssl",".fa-external-link",".fa-external-link-square",".fa-eye",".fa-eye-slash",".fa-eyedropper",".fa-facebook",".fa-facebook-f",".fa-facebook-official",".fa-facebook-square",".fa-fast-backward",".fa-fast-forward",".fa-fax",".fa-feed",".fa-female",".fa-fighter-jet",".fa-file",".fa-file-archive-o",".fa-file-audio-o",".fa-file-code-o",".fa-file-excel-o",".fa-file-image-o",".fa-file-movie-o",".fa-file-o",".fa-file-pdf-o",".fa-file-photo-o",".fa-file-picture-o",".fa-file-powerpoint-o",".fa-file-sound-o",".fa-file-text",".fa-file-text-o",".fa-file-video-o",".fa-file-word-o",".fa-file-zip-o",".fa-files-o",".fa-film",".fa-filter",".fa-fire",".fa-fire-extinguisher",".fa-firefox",".fa-flag",".fa-flag-checkered",".fa-flag-o",".fa-flash",".fa-flask",".fa-flickr",".fa-flip-horizontal",".fa-flip-vertical",".fa-floppy-o",".fa-folder",".fa-folder-o",".fa-folder-open",".fa-folder-open-o",".fa-font",".fa-fonticons",".fa-fort-awesome",".fa-forumbee",".fa-forward",".fa-foursquare",".fa-frown-o",".fa-futbol-o",".fa-fw",".fa-gamepad",".fa-gavel",".fa-gbp",".fa-ge",".fa-gear",".fa-gears",".fa-genderless",".fa-get-pocket",".fa-gg",".fa-gg-circle",".fa-gift",".fa-git",".fa-git-square",".fa-github",".fa-github-alt",".fa-github-square",".fa-gittip",".fa-glass",".fa-globe",".fa-google",".fa-google-plus",".fa-google-plus-square",".fa-google-wallet",".fa-graduation-cap",".fa-gratipay",".fa-group",".fa-h-square",".fa-hacker-news",".fa-hand-grab-o",".fa-hand-lizard-o",".fa-hand-o-down",".fa-hand-o-left",".fa-hand-o-right",".fa-hand-o-up",".fa-hand-paper-o",".fa-hand-peace-o",".fa-hand-pointer-o",".fa-hand-rock-o",".fa-hand-scissors-o",".fa-hand-spock-o",".fa-hand-stop-o",".fa-hashtag",".fa-hdd-o",".fa-header",".fa-headphones",".fa-heart",".fa-heart-o",".fa-heartbeat",".fa-history",".fa-home",".fa-hospital-o",".fa-hotel",".fa-hourglass",".fa-hourglass-1",".fa-hourglass-2",".fa-hourglass-3",".fa-hourglass-end",".fa-hourglass-half",".fa-hourglass-o",".fa-hourglass-start",".fa-houzz",".fa-html5",".fa-i-cursor",".fa-ils",".fa-image",".fa-inbox",".fa-indent",".fa-industry",".fa-info",".fa-info-circle",".fa-inr",".fa-instagram",".fa-institution",".fa-internet-explorer",".fa-intersex",".fa-inverse",".fa-ioxhost",".fa-italic",".fa-joomla",".fa-jpy",".fa-jsfiddle",".fa-key",".fa-keyboard-o",".fa-krw",".fa-language",".fa-laptop",".fa-lastfm",".fa-lastfm-square",".fa-leaf",".fa-leanpub",".fa-legal",".fa-lemon-o",".fa-level-down",".fa-level-up",".fa-lg",".fa-li",".fa-li.fa-lg",".fa-life-bouy",".fa-life-buoy",".fa-life-ring",".fa-life-saver",".fa-lightbulb-o",".fa-line-chart",".fa-link",".fa-linkedin",".fa-linkedin-square",".fa-linux",".fa-list",".fa-list-alt",".fa-list-ol",".fa-list-ul",".fa-location-arrow",".fa-lock",".fa-long-arrow-down",".fa-long-arrow-left",".fa-long-arrow-right",".fa-long-arrow-up",".fa-magic",".fa-magnet",".fa-mail-forward",".fa-mail-reply",".fa-mail-reply-all",".fa-male",".fa-map",".fa-map-marker",".fa-map-o",".fa-map-pin",".fa-map-signs",".fa-mars",".fa-mars-double",".fa-mars-stroke",".fa-mars-stroke-h",".fa-mars-stroke-v",".fa-maxcdn",".fa-meanpath",".fa-medium",".fa-medkit",".fa-meh-o",".fa-mercury",".fa-microphone",".fa-microphone-slash",".fa-minus",".fa-minus-circle",".fa-minus-square",".fa-minus-square-o",".fa-mixcloud",".fa-mobile",".fa-mobile-phone",".fa-modx",".fa-money",".fa-moon-o",".fa-mortar-board",".fa-motorcycle",".fa-mouse-pointer",".fa-music",".fa-navicon",".fa-neuter",".fa-newspaper-o",".fa-object-group",".fa-object-ungroup",".fa-odnoklassniki",".fa-odnoklassniki-square",".fa-opencart",".fa-openid",".fa-opera",".fa-optin-monster",".fa-outdent",".fa-pagelines",".fa-paint-brush",".fa-paper-plane",".fa-paper-plane-o",".fa-paperclip",".fa-paragraph",".fa-paste",".fa-pause",".fa-pause-circle",".fa-pause-circle-o",".fa-paw",".fa-paypal",".fa-pencil",".fa-pencil-square",".fa-pencil-square-o",".fa-percent",".fa-phone",".fa-phone-square",".fa-photo",".fa-picture-o",".fa-pie-chart",".fa-pied-piper",".fa-pied-piper-alt",".fa-pinterest",".fa-pinterest-p",".fa-pinterest-square",".fa-plane",".fa-play",".fa-play-circle",".fa-play-circle-o",".fa-plug",".fa-plus",".fa-plus-circle",".fa-plus-square",".fa-plus-square-o",".fa-power-off",".fa-print",".fa-product-hunt",".fa-pull-left",".fa-pull-right",".fa-pulse",".fa-puzzle-piece",".fa-qq",".fa-qrcode",".fa-question",".fa-question-circle",".fa-quote-left",".fa-quote-right",".fa-ra",".fa-random",".fa-rebel",".fa-recycle",".fa-reddit",".fa-reddit-alien",".fa-reddit-square",".fa-refresh",".fa-registered",".fa-remove",".fa-renren",".fa-reorder",".fa-repeat",".fa-reply",".fa-reply-all",".fa-retweet",".fa-rmb",".fa-road",".fa-rocket",".fa-rotate-180",".fa-rotate-270",".fa-rotate-90",".fa-rotate-left",".fa-rotate-right",".fa-rouble",".fa-rss",".fa-rss-square",".fa-rub",".fa-ruble",".fa-rupee",".fa-safari",".fa-save",".fa-scissors",".fa-scribd",".fa-search",".fa-search-minus",".fa-search-plus",".fa-sellsy",".fa-send",".fa-send-o",".fa-server",".fa-share",".fa-share-alt",".fa-share-alt-square",".fa-share-square",".fa-share-square-o",".fa-shekel",".fa-sheqel",".fa-shield",".fa-ship",".fa-shirtsinbulk",".fa-shopping-bag",".fa-shopping-basket",".fa-shopping-cart",".fa-sign-in",".fa-sign-out",".fa-signal",".fa-simplybuilt",".fa-sitemap",".fa-skyatlas",".fa-skype",".fa-slack",".fa-sliders",".fa-slideshare",".fa-smile-o",".fa-soccer-ball-o",".fa-sort",".fa-sort-alpha-asc",".fa-sort-alpha-desc",".fa-sort-amount-asc",".fa-sort-amount-desc",".fa-sort-asc",".fa-sort-desc",".fa-sort-down",".fa-sort-numeric-asc",".fa-sort-numeric-desc",".fa-sort-up",".fa-soundcloud",".fa-space-shuttle",".fa-spin",".fa-spinner",".fa-spoon",".fa-spotify",".fa-square",".fa-square-o",".fa-stack",".fa-stack-1x",".fa-stack-2x",".fa-stack-exchange",".fa-stack-overflow",".fa-star",".fa-star-half",".fa-star-half-empty",".fa-star-half-full",".fa-star-half-o",".fa-star-o",".fa-steam",".fa-steam-square",".fa-step-backward",".fa-step-forward",".fa-stethoscope",".fa-sticky-note",".fa-sticky-note-o",".fa-stop",".fa-stop-circle",".fa-stop-circle-o",".fa-street-view",".fa-strikethrough",".fa-stumbleupon",".fa-stumbleupon-circle",".fa-subscript",".fa-subway",".fa-suitcase",".fa-sun-o",".fa-superscript",".fa-support",".fa-table",".fa-tablet",".fa-tachometer",".fa-tag",".fa-tags",".fa-tasks",".fa-taxi",".fa-television",".fa-tencent-weibo",".fa-terminal",".fa-text-height",".fa-text-width",".fa-th",".fa-th-large",".fa-th-list",".fa-thumb-tack",".fa-thumbs-down",".fa-thumbs-o-down",".fa-thumbs-o-up",".fa-thumbs-up",".fa-ticket",".fa-times",".fa-times-circle",".fa-times-circle-o",".fa-tint",".fa-toggle-down",".fa-toggle-left",".fa-toggle-off",".fa-toggle-on",".fa-toggle-right",".fa-toggle-up",".fa-trademark",".fa-train",".fa-transgender",".fa-transgender-alt",".fa-trash",".fa-trash-o",".fa-tree",".fa-trello",".fa-tripadvisor",".fa-trophy",".fa-truck",".fa-try",".fa-tty",".fa-tumblr",".fa-tumblr-square",".fa-turkish-lira",".fa-tv",".fa-twitch",".fa-twitter",".fa-twitter-square",".fa-ul",".fa-ul > li",".fa-umbrella",".fa-underline",".fa-undo",".fa-university",".fa-unlink",".fa-unlock",".fa-unlock-alt",".fa-unsorted",".fa-upload",".fa-usb",".fa-usd",".fa-user",".fa-user-md",".fa-user-plus",".fa-user-secret",".fa-user-times",".fa-users",".fa-venus",".fa-venus-double",".fa-venus-mars",".fa-viacoin",".fa-video-camera",".fa-vimeo",".fa-vimeo-square",".fa-vine",".fa-vk",".fa-volume-down",".fa-volume-off",".fa-volume-up",".fa-warning",".fa-wechat",".fa-weibo",".fa-weixin",".fa-whatsapp",".fa-wheelchair",".fa-wifi",".fa-wikipedia-w",".fa-windows",".fa-won",".fa-wordpress",".fa-wrench",".fa-xing",".fa-xing-square",".fa-y-combinator",".fa-y-combinator-square",".fa-yahoo",".fa-yc",".fa-yc-square",".fa-yelp",".fa-yen",".fa-youtube",".fa-youtube-play",".fa-youtube-square",".fa.fa-pull-left",".fa.fa-pull-right",".fa.pull-left",".fa.pull-right",".order-form",".order-form__button",".order-form__caption",".order-form__label",".order-form__price",".order-form__star",".order-form__text",".pull-left",".pull-right","img[height=\"1\"]","img[width=\"1\"]"];pagespeed.criticalCssBeaconInit('/ngx_pagespeed_beacon','https://blogs-info.info/moneyamulet-prokla13-a/fonts/fontawesome-webfont.eot-v=4.5.0','t0wwjCGYgP','9Qt7slodTaw',pagespeed.selectors);</script></body>
+</html>
