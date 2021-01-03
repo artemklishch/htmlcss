@@ -1,0 +1,13 @@
+table {
+  width: 75%;
+  border-collapse: collapse;
+}
+table td {
+  border: 1px solid black;
+  width: 33.33%;
+  height: 50px;
+  text-align: center;
+}
+.highcell{
+    height: 200px;
+}
