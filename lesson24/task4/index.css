@@ -1,0 +1,9 @@
+body {
+  min-width: 100vh;
+  margin: 0;
+  display: flex;
+}
+#canvas_elem {
+  background-color: #ead9ce;
+  margin: auto;
+}
